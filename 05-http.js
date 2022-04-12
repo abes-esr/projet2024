@@ -57,7 +57,7 @@ getPostsBis();
 async function getPostsByIdBis(id) {
     try {
         // Destructuration d'objet
-        const {data : post_data} = await axios.get(API_URL + 'posts/' + id );
+        const {data: post_data} = await axios.get(API_URL + 'posts/' + id );
         single_post = post_data;
 
         const {data: user_data} = await axios.get(API_URL + 'users/' + single_post.userId)
