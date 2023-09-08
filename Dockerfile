@@ -7,9 +7,9 @@ ENV NPM_CONFIG_LOGLEVEL=warn
 ENV NPM_CONFIG_COLOR=false
 
 # We'll run the app as the `node` user, so put it in their home directory
-WORKDIR /build/
+WORKDIR /app/
 # Copy the source code over
-COPY . /build/
+COPY . /app/
 
 # Build the Docusaurus app
 RUN npm run build
@@ -18,5 +18,5 @@ RUN npm run build
 # Use a stable nginx image
 FROM nginx:stable-alpine as front-image
 # Copy what we've installed/built from production
-COPY --from=build-image /build/dist /usr/share/nginx/html/
+COPY --from=build-image /app/build /usr/share/nginx/html/
 EXPOSE 80
