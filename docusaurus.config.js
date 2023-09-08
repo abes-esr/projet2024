@@ -66,8 +66,8 @@ const config = {
       navbar: {
         title: 'Abes',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Logo Abes',
+          src: 'img/logo-abes-cercle-130x130.svg',
         },
         items: [
           {
