@@ -66,7 +66,7 @@ const config = {
       navbar: {
         title: 'Abes',
         logo: {
-          alt: 'Logo de l\'Abes',
+          alt: 'Logo Abes',
           src: 'img/logo-abes-cercle-130x130.svg',
         },
         items: [
@@ -96,9 +96,8 @@ const config = {
               },
             ],
           },
-          /*
-             {
-
+/*          
+          {
             title: 'Community',
             items: [
               {
@@ -114,7 +113,7 @@ const config = {
                 href: 'https://twitter.com/docusaurus',
               },
             ],
-          }, */
+          },
           {
             title: 'More',
             items: [
@@ -128,6 +127,7 @@ const config = {
               },
             ],
           },
+*/
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
