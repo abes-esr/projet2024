@@ -28,8 +28,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'fr',
+    locales: ['fr'],
   },
 
   presets: [
@@ -66,8 +66,8 @@ const config = {
       navbar: {
         title: 'Abes',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Logo de l\'Abes',
+          src: 'img/logo-abes-cercle-130x130.svg',
         },
         items: [
           {
