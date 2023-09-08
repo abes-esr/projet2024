@@ -1,6 +1,6 @@
 ## Base ########################################################################
 # Use a larger node image to do the build for native deps (e.g., gcc, python)
-FROM node:lts as build-image
+FROM node:18 as build-image
 
 # Reduce npm log spam and colour during install within Docker
 ENV NPM_CONFIG_LOGLEVEL=warn
@@ -21,7 +21,7 @@ RUN npm run build
 
 ## Deploy ######################################################################
 # Use a stable nginx image
-FROM nginx:stable-alpine as front-image
+FROM nginx:1.25 as projet2024-image
 # Copy what we've installed/built from production
 COPY --from=build-image /app/build /usr/share/nginx/html/
 EXPOSE 80
