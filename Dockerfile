@@ -8,6 +8,11 @@ ENV NPM_CONFIG_COLOR=false
 
 # We'll run the app as the `node` user, so put it in their home directory
 WORKDIR /app/
+
+# Install dependencies
+COPY ./package*.json /app/
+RUN npm install
+
 # Copy the source code over
 COPY . /app/
 
