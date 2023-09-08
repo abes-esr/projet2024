@@ -85,18 +85,20 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        //style: 'dark',
         links: [
           {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Version soumise à commentaire',
+                to: '/docs/projet2024_v0',
               },
             ],
           },
-          {
+          /*
+             {
+
             title: 'Community',
             items: [
               {
@@ -112,7 +114,7 @@ const config = {
                 href: 'https://twitter.com/docusaurus',
               },
             ],
-          },
+          }, */
           {
             title: 'More',
             items: [
