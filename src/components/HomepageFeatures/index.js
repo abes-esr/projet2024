@@ -3,25 +3,25 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 
 const FeatureList = [
-  {
-    title: 'Aide',
-    Svg: require('@site/static/img/logo-abes-cercle-130x130.svg').default,
-    description: (
-      <>
-        Pour ajouter vos commentaires
-      </>
-    ),
-  },
+
   {
     title: 'Historique des versions',
     Svg: require('@site/static/img/logo-abes-cercle-130x130.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+Texte d'explication
       </>
     ),
   },
+    {
+        title: 'Aide',
+        Svg: require('@site/static/img/logo-abes-cercle-130x130.svg').default,
+        description: (
+            <>
+                Comment ajouter vos commentaires
+            </>
+        ),
+    },
   /*{
     title: 'Powered by React',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,

@@ -8,17 +8,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Abes - Projet d\'établissement 2024-2028',
   tagline: '',
+
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'http://localhost:3000',
+  url: 'https://projet2024.abes.fr',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Abes', // Usually your GitHub org/user name.
+  organizationName: 'Abes', // Usually your GitHub org user name.
   projectName: 'projet2024', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -41,16 +42,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -62,76 +55,52 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+   //  image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Abes',
+        title: 'Projet d\'établissement de l\'Abes',
         logo: {
           alt: 'Logo Abes',
           src: 'img/logo-abes-cercle-130x130.svg',
+        //  href: 'https://abes.fr/',
+     //     target: '_self',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Historique des versions',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'right',
+            label: 'Comment ajouter vos commentaires',
+          },
+      //    {to: '/blog', label: 'Blog', position: 'left'},
+      /*    {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
-          },
+          },*/
         ],
       },
       footer: {
-        //style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Version soumise à commentaire',
-                to: '/docs/projet2024_v0',
-              },
-            ],
-          },
-/*          
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-*/
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+  style: 'light',
+  logo: {
+    alt: 'Logo Abes',
+    src: 'img/logo-abes-cercle-130x130.svg',
+    href: 'https://abes.fr/',
+    target: '_new',
+    width: 50,
+    height: 50,
+  },
+
+
+        copyright: `Agence bibliographique de l\'enseignement supérieur`,
       },
-      prism: {
+
+   prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
