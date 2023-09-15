@@ -13,17 +13,7 @@ Le projet d'établissement 2024-2028 de l'Abes sera prochainement publié ici et
       </>
     ),
   },
-/*
-    {
-        title: 'Aide',
-        Svg: require('@site/static/img/logo-abes-cercle-130x130.svg').default,
-        description: (
-            <>
-                Comment ajouter vos commentaires
-            </>
-        ),
-    },
-*/
+
 ];
 
 function Feature({Svg, title, description}) {
