@@ -31,11 +31,11 @@ jobs:
         with:
           images: ${{ env.DOCKERHUB_IMAGE_PREFIX }}
       - name: "Push: login to DockerHub"
-        if: github.event_name != 'pull_request')
+        if: github.event_name != 'pull_request'
         run: |
           echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
       - name: "Push: push docker image"
-        if: github.event_name != 'pull_request')
+        if: github.event_name != 'pull_request'
         run: |
           DOCKER_TAGS="${{ steps.docker_tag_meta.outputs.tags }}"
           for DOCKER_TAG in $DOCKER_TAGS
