@@ -37,6 +37,8 @@ export default function Home() {
           <div className="container">
        <h2>Qu'est ce que c'est que ce site</h2>
               <p>bla bla bli</p></div>
+
+          <HomepageFeatures />
       </main>
     </Layout>
   );
