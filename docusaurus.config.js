@@ -32,7 +32,9 @@ const config = {
         defaultLocale: 'fr',
         locales: ['fr'],
     },
-
+    plugins: [
+        'docusaurus-plugin-matomo',
+    ],
     presets: [
         [
             'classic',
@@ -107,6 +109,13 @@ const config = {
             prism: {
                 theme: lightCodeTheme,
                 darkTheme: darkCodeTheme,
+            },
+
+            matomo: {
+                matomoUrl: 'https://piwik.abes.fr/',
+                siteId: '37',
+                phpLoader: 'matomo.php',
+                jsLoader: 'matomo.js',
             },
         }),
     scripts: [
