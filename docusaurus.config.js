@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Abes - Projet d\'établissement 2024-2028',
+    title: 'Projet d\'établissement 2024-2028 de l\'Abes',
     tagline: '',
 
     favicon: 'img/favicon.ico',
@@ -68,19 +68,7 @@ const config = {
                     //     target: '_self',
                 },
                 items: [
-                    {
-                        type: 'docSidebar',
-                        sidebarId: 'tutorialSidebar',
-                        position: 'left',
-                        label: 'Historique des versions',
-                    },
-                   {
-                        type: 'html',
-                       // sidebarId: 'tutorialSidebar',
-                        position: 'left',
-                      //  label: 'Comment ajouter vos commentaires',
-                        value:'<a href="" > <img src="img/annotation.svg" alt=" " width="30" height="30" /> Comment commenter ?</a>'
-                    },
+
                     //    {to: '/blog', label: 'Blog', position: 'left'},
                     /*    {
                           href: 'https://github.com/facebook/docusaurus',
@@ -109,11 +97,7 @@ const config = {
                 darkTheme: darkCodeTheme,
             },
         }),
-    scripts: [
-        {
-            src: 'https://hypothes.is/embed.js',
-        async: true
-        }]
+    
 
 
 };

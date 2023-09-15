@@ -5,14 +5,15 @@ import styles from './styles.module.css';
 const FeatureList = [
 
   {
-    title: 'Historique des versions',
-    Svg: require('@site/static/img/logo-abes-cercle-130x130.svg').default,
+    title: 'Travaux en cours',
+    Svg: require('@site/static/img/Lavori-in-corso.svg').default,
     description: (
       <>
-Texte d'explication
+Le projet d'établissement 2024-2028 de l'Abes sera prochainement publié ici et ouvert aux commentaires.
       </>
     ),
   },
+/*
     {
         title: 'Aide',
         Svg: require('@site/static/img/logo-abes-cercle-130x130.svg').default,
@@ -22,22 +23,12 @@ Texte d'explication
             </>
         ),
     },
-  /*{
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
-  */
+*/
 ];
 
 function Feature({Svg, title, description}) {
   return (
-    <div className={clsx('col col--6')}>
+    <div className={clsx('col')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
