@@ -74,12 +74,12 @@ const config = {
                         position: 'left',
                         label: 'Historique des versions',
                     },
-                    {
-                        type: 'docSidebar',
-                        sidebarId: 'tutorialSidebar',
-                        position: 'right',
+                   {
+                        type: 'html',
+                       // sidebarId: 'tutorialSidebar',
+                        position: 'left',
                       //  label: 'Comment ajouter vos commentaires',
-                        html:'<a href="" > <img src="static/img/annotation.svg" alt=" " width="30" height="30" /> Comment ajouter vos commentaires</a>'
+                        value:'<a href="" > <img src="img/annotation.svg" alt=" " width="30" height="30" /> Comment commenter ?</a>'
                     },
                     //    {to: '/blog', label: 'Blog', position: 'left'},
                     /*    {
