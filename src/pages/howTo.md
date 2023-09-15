@@ -1,10 +1,10 @@
 ---
-title: Comment commenter le projet ?
-description: Page d'aide à la saisie de commentaires
+title: Comment commenter le projet de l'Abes ?
+description: Page d'aide à la saisie des commentaires sur le projet de l'Abes
 hide_table_of_contents: false
 ---
 
-# Guide pour commenter le projet de l'Abes
+# Guide de comment commenter le projet de l'Abes
 
 Vous trouverez sur cette page un guide d'utilisation de l'outil `hypothes.is` permettant de déposer des commentaires publics sur le projet d'établissement 2024-2028 de l'Abes. Le principe de cet outil est de permettre de réaliser des annotations sur le texte du projet lui même en surlignant des parties du texte où vous pourrez alors déposer vos commentaires.
 
