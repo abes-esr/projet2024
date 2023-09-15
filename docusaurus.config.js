@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Abes - Projet d\'établissement 2024-2028',
-    tagline: '',
+    title: 'Projet d\'établissement 2024-2028 de l\'Abes',
+    tagline: 'Ouverture aux commentaires publics',
 
     favicon: 'img/favicon.ico',
 
