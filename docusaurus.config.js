@@ -40,8 +40,8 @@ const config = {
             'classic',
             /** @type {import('@docusaurus/preset-classic').Options} */
             ({
-                docs: {
-                    sidebarPath: require.resolve('./sidebars.js'),
+               docs: {
+                 sidebarPath: require.resolve('./sidebars.js'),
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                 },
@@ -70,12 +70,12 @@ const config = {
                     //     target: '_self',
                 },
                 items: [
-                    {
+                    /*{
                         type: 'docSidebar',
                         sidebarId: 'tutorialSidebar',
                         position: 'left',
                         label: 'Historique des versions',
-                    },
+                    },*/
                     {
                         type: 'docsVersionDropdown',
                         position: 'left',
