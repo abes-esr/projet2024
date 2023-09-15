@@ -78,10 +78,9 @@ const config = {
                     },
                    {
                         type: 'html',
-                       // sidebarId: 'tutorialSidebar',
                         position: 'left',
                       //  label: 'Comment ajouter vos commentaires',
-                        value:'<a href="/howTo/" > <img src="img/annotation.svg" alt=" " width="30" height="30" /> Comment commenter ?</a>'
+                        value:'<a href="/howTo/" class="navbar__item navbar__link"><img src="/img/annotation.svg" alt="" /> Comment commenter le projet ?</a>'
                     },
                     //    {to: '/blog', label: 'Blog', position: 'left'},
                     /*    {
