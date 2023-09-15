@@ -82,6 +82,13 @@ const config = {
                         //dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
                         dropdownActiveClassDisabled: false,
                     },
+                   {
+                        type: 'html',
+                       // sidebarId: 'tutorialSidebar',
+                        position: 'left',
+                      //  label: 'Comment ajouter vos commentaires',
+                        value:'<a href="/howTo/" > <img src="img/annotation.svg" alt=" " width="30" height="30" /> Comment commenter ?</a>'
+                    },
                     //    {to: '/blog', label: 'Blog', position: 'left'},
                     /*    {
                           href: 'https://github.com/facebook/docusaurus',
