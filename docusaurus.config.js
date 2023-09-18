@@ -130,7 +130,7 @@ const config = {
                 links: [
                     {
                         html: `
-// inclusion du panneau des commentaires de l'outil hypothes.is
+// paramétrage du panneau des commentaires de l'outil hypothes.is
 // cette méthode permet d'y ajouter toute la configuration souhaitée
 // https://h.readthedocs.io/projects/client/en/latest/publishers/config.html
 <script type="application/json" class="js-hypothesis-config">
@@ -138,7 +138,6 @@ const config = {
     "openSidebar": false
   }
 </script>
-<script async src="https://hypothes.is/embed.js"></script>
                           `,
                     },
                 ]
@@ -158,7 +157,12 @@ const config = {
         }),
 
 
-
+    // inclusion du panneau des commentaires de l'outil hypothes.is
+    // cf lignes plus haut pour la configuration
+    scripts: [{
+        src: 'https://hypothes.is/embed.js',
+        async: true
+    }]
 
 };
 
