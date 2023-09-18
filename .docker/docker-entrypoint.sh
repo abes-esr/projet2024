@@ -14,7 +14,7 @@ fi
 rm -rf /usr/share/nginx/html/
 cp -raf /usr/share/nginx/html.orig/ /usr/share/nginx/html/
 find /usr/share/nginx/html/ -exec \
-  sed -i "s#https://PROJET2024_HTTP_BASEURL__PLACEHOLDER#${PROJET2024_HTTP_BASEURL}#g" {} \;
+  sed -i "s#https://PROJET2024_HTTP_BASEURL__PLACEHOLDER#${PROJET2024_HTTP_BASEURL}#gI" {} \;
 
 # execute nginx (cf CMD dans Dockerfile)
 exec "$@"
