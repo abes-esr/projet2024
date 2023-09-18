@@ -125,8 +125,23 @@ const config = {
                     height: 50,
                 },
 
-
                 copyright: `Agence bibliographique de l\'enseignement supérieur`,
+                
+                links: [
+                    {
+                        html: `
+// inclusion du panneau des commentaires de l'outil hypothes.is
+// cette méthode permet d'y ajouter toute la configuration souhaitée
+// https://h.readthedocs.io/projects/client/en/latest/publishers/config.html
+<script type="application/json" class="js-hypothesis-config">
+  {
+    "openSidebar": false
+  }
+</script>
+<script async src="https://hypothes.is/embed.js"></script>
+                          `,
+                    },
+                ]
             },
 
             prism: {
@@ -142,11 +157,7 @@ const config = {
             },
         }),
 
-    // inclusion du panneau des commentaires de l'outil hypothes.is
-    scripts: [{
-        src: 'https://hypothes.is/embed.js',
-        async: true
-    }]
+
 
 
 };
