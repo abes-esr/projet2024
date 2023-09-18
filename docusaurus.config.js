@@ -19,7 +19,7 @@ const config = {
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'Abes', // Usually your GitHub org user name.
+    organizationName: 'abes-esr', // Usually your GitHub org user name.
     projectName: 'projet2024', // Usually your repo name.
 
     onBrokenLinks: 'throw',
@@ -141,11 +141,12 @@ const config = {
                 jsLoader: 'matomo.js',
             },
         }),
-    scripts: [
-        {
-            src: 'https://hypothes.is/embed.js',
+
+    // inclusion du panneau des commentaires de l'outil hypothes.is
+    scripts: [{
+        src: 'https://hypothes.is/embed.js',
         async: true
-        }]
+    }]
 
 
 };
