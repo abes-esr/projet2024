@@ -44,12 +44,25 @@ const config = {
                  sidebarPath: require.resolve('./sidebars.js'),
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                },
+
+                   includeCurrentVersion: false,
+                   versions: {
+                       '1.1': {
+                           label: 'version 1.1 ouverte à commentaire',
+                           path: '1.1',
+                       },
+                       '1.0': {
+                           label: 'version 1.0  archivée',
+                           path: '1.0',
+                       },
+                   },
+               },
                 blog: false,
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
                 },
-            }),
+
+            })
         ],
     ],
 
