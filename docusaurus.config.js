@@ -129,10 +129,10 @@ const config = {
                 
                 links: [
                     {
-                        html: `
 // paramétrage du panneau des commentaires de l'outil hypothes.is
 // cette méthode permet d'y ajouter toute la configuration souhaitée
 // https://h.readthedocs.io/projects/client/en/latest/publishers/config.html
+                        html: `
 <script type="application/json" class="js-hypothesis-config">
   {
     "openSidebar": false
