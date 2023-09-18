@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import ConsulterProjetAbesLink from '@site/src/components/ConsulterProjetAbesLink';
 
 import styles from './index.module.css';
 
@@ -15,11 +16,7 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/1.1/projet2024">
-              Consulter le projet
-          </Link>
+          <ConsulterProjetAbesLink />
         </div>
       </div>
     </header>

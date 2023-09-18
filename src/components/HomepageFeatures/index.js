@@ -1,7 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
-import Link from '@docusaurus/Link';
+import ConsulterProjetAbesLink from '@site/src/components/ConsulterProjetAbesLink';
 
 const FeatureList = [
 
@@ -64,11 +64,7 @@ export default function HomepageFeatures() {
             <Feature key={idx} {...props} />
           ))}
         </div>
-        <Link
-            className="button button--secondary button--lg"
-            to="/docs/1.1/projet2024">
-              Consulter le projet
-        </Link>
+        <ConsulterProjetAbesLink />
       </div>
 
     </section>
