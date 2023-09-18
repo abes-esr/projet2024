@@ -12,7 +12,7 @@ const config = {
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
-    url: 'https://PROJET2024_URL__PLACEHOLDER',
+    url: 'https://PROJET2024_HTTP_BASEURL__PLACEHOLDER',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/',
