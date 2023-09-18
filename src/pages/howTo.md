@@ -27,8 +27,9 @@ TODO, reste à faire pour Pierre, Emilie et Stéphane : adapter cette explicatio
 
 ### Consulter les commentaires déjà déposés
 
-Pour consulter vos commentaires ou consulter les commentaires publics déjà déposés, ouvrez le panneau latéral des commentaires en cliquant sur le bouton suivant en haut à droite du site web :
+Pour consulter vos commentaires ou consulter les commentaires publics déjà déposés, ouvrez le panneau latéral des commentaires en <button data-hypothesis-trigger>cliquant ici</button> ou en cliquant sur le bouton suivant en haut à droite du site web :
 <img src="/img/sidebar.png" alt="sidebar" />
+
 
 ### Saisie d'un nouveau commentaire
 
