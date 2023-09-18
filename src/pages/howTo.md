@@ -23,6 +23,8 @@ Pour être en mesure de déposer ces commentaires, une inscription préalable su
 
 La première étape pour commenter consiste à ouvrir dans votre navigateur web la version du projet que vous souhaitez commenter. Il est recommandé de **commenter uniquement la dernière version du projet**. Pour s'assurer que c'est la dernière version du projet que vous êtes en train de commenter, référez vous au lien `Consulter le projet` sur la [page d'acceuil](/) qui vous y amennera ou au menu déroulant en haut du site web qui vous permet de naviguer dans les versions du projet.
 
+TODO, reste à faire pour Pierre, Emilie et Stéphane : adapter cette explication en fonction du système de versionning retenu. 
+
 ### Consulter les commentaires déjà déposés
 
 Pour consulter vos commentaires ou consulter les commentaires publics déjà déposés, ouvrez le panneau latéral des commentaires en cliquant sur le bouton suivant en haut à droite du site web :
