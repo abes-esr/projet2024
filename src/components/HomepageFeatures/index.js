@@ -66,9 +66,9 @@ export default function HomepageFeatures() {
         </div>
         <Link
             className="button button--secondary button--lg"
-            to="/docs/projet2024">
+            to="/docs/1.1/projet2024">
               Consulter le projet
-          </Link>
+        </Link>
       </div>
 
     </section>
