@@ -98,7 +98,12 @@ const config = {
             },
         }),
     
-
+    // inclusion du panneau des commentaires de l'outil hypothes.is
+    // cf lignes plus haut pour la configuration
+    scripts: [{
+        src: 'https://hypothes.is/embed.js',
+        async: true
+    }]
 
 };
 
