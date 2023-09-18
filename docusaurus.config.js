@@ -128,11 +128,12 @@ const config = {
                 jsLoader: 'matomo.js',
             },
         }),
-    scripts: [
-        {
-            src: 'https://hypothes.is/embed.js',
+
+    // inclusion du panneau des commentaires de l'outil hypothes.is
+    scripts: [{
+        src: 'https://hypothes.is/embed.js',
         async: true
-        }]
+    }]
 
 
 };
