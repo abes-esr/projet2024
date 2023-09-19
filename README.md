@@ -8,7 +8,10 @@ Le site est déployé à l'aide de la configuration suivante :
 https://github.com/abes-esr/projet2024-docker
 
 
-## Publier une nouvelle version du projet
+## Publier une nouvelle version du projet de l'Abes
+
+
+### Etape 1 : passer du docx au markdown
 
 La version de travail du projet d'établissement est un docx partagé entre tous les membres de l'équipe projet. Pour la publier il est nécessaire de convertir le docx en markdown. Voici les commandes permettant de le faire :
 
@@ -33,3 +36,7 @@ mv  ./projet2024-final.md ./projet2024.md && rm ./projet2024-head.md
 ```
 
 Il faut ensuite commit/push le nouveau md après avoir vérifié qu'il est propre.
+
+### Etape 2 : générer la version dans docusaurus
+
+todo émilie
