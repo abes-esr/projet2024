@@ -1,0 +1,10 @@
+{
+  "title": {
+    "message": "Projet d'établissement de l'Abes",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Logo Abes",
+    "description": "The alt text of navbar logo"
+  }
+}
