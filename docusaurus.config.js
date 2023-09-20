@@ -45,7 +45,7 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
 
-                   includeCurrentVersion: false,
+                 includeCurrentVersion: false,
                    versions: {
                        '1.1': {
                            label: 'version 1.1 ouverte à commentaire',
@@ -56,6 +56,18 @@ const config = {
                            path: '1.0',
                        },
                    },
+                  /*   lastVersion: 'current',
+                   versions: {
+                       current: {
+                           label: 'version 1.1 ouverte à commentaire',
+                           path: '1.1',
+                       },
+                       '1.0': {
+                           label: 'version 1.0  archivée',
+                           path: '1.0',
+                       },
+                   },*/
+
                },
                 blog: false,
                 theme: {
