@@ -1,9 +1,9 @@
 ---
-sidebar_position: 1
+
 ---
 
-# Abes – Projet d’établissement 2024 - version 1.0
-
+# Abes – Projet d’établissement 2024 - version en cours
+# `Version de travail qui n'est pas publique`
 
 ## Résumé exécutif
 

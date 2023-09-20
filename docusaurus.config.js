@@ -42,20 +42,17 @@ const config = {
             ({
                docs: {
                  sidebarPath: require.resolve('./sidebars.js'),
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-
                  includeCurrentVersion: false,
                    versions: {
-                       '1.1': {
-                           label: 'version 1.1 ouverte à commentaire',
-                           path: '1.1',
+                       'X.Y': {
+                           label: ' version pour mode d\'emploi versionning',
+                           path: 'X.Y',
                        },
                        '1.0': {
-                           label: 'version 1.0  archivée',
+                           label: 'version 1.0 ouverte à commentaire',
                            path: '1.0',
                        },
-                   },
+                                         },
                   /*   lastVersion: 'current',
                    versions: {
                        current: {

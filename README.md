@@ -39,4 +39,39 @@ Il faut ensuite commit/push le nouveau md après avoir vérifié qu'il est propr
 
 ### Etape 2 : générer la version dans docusaurus
 
-todo émilie
+
+Une fois le document prêt en markdown, il faut la publiée de manière versionnée dans le site (construction de l'URL, menu déroulant pour l'accès aux différentes versions, liens directes sur la page d'accueil).
+1. Figer la version = commande pour créer l'arborescence pour cette version *projet2024/docs/versioned_docs/**version-X.Y*** et copier le contenu du répertoire de travail *projet2024/docs/* dans ce répertoire.  
+   ```npm run docusaurus docs:version X.Y ```
+
+2. Mettre à jour le menu déroulant dans le fichier : *projet2024/**docusaurus.config.js***
+
+```
+   docs: {  
+     sidebarPath: require.resolve('./sidebars.js'),        
+     includeCurrentVersion: false,  
+     versions: {
+                       'X.Y': {
+                           label: 'version X.Y ouverte à commentaire,
+                           path: 'X.Y',
+                       },
+                       '1.1': {
+                           label: 'version 1.1 archivée',
+                           path: '1.1',
+                       },
+                       '1.0': {
+                           label: 'version 1.0  archivée',
+                           path: '1.0',
+                       },
+                   },
+```
+
+3. Mettre à jour le lien pour les boutons d'accès à cette version depuis la page d'accueil dans le fichier :  *projet2024/src/components/ConsulterProjetAbesLink/**index.js***
+```
+<Link  
+  className="button button--secondary button--lg"  
+  to="/docs/X.Y/projet2024/">  
+  Consulter le projet  
+</Link>
+```
+

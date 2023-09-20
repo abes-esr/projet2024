@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+
 ---
 
 # Abes – Projet d’établissement 2024 - version 1.0
