@@ -23,15 +23,15 @@ Pour être en mesure de déposer ces commentaires, une inscription préalable su
 
 ### Ouvrir la version du projet que l'on souhaite commenter
 
-La première étape pour commenter consiste à ouvrir dans votre navigateur web la version du projet que vous souhaitez commenter. Il est recommandé de **commenter uniquement la dernière version du projet**. Voici le lien que vous retrouverez également sur la [page d'acceuil](/) qui vous permet d'accéder à cette dernière version : <ConsulterProjetAbesLink />
+La première étape pour commenter consiste à ouvrir dans votre navigateur web la version du projet que vous souhaitez commenter. Il est recommandé de **commenter uniquement la dernière version du projet**. Voici le lien que vous retrouverez également sur la [page d'accueil](/) qui vous permet d'accéder à cette dernière version : <ConsulterProjetAbesLink />
 
 A noter qu'à titre informatif, nous laisserons affichées et accessibles les anciennes versions du projet dans le menu déroulant dans le haut de la page :  
-![Versions du projet](/img/versions-du-projet.png)
+![Versions du projet](/img/versions-du-projet_erm.png)
 
 ### Consulter les commentaires déjà déposés
 
 Pour consulter vos commentaires ou consulter les commentaires publics déjà déposés, ouvrez le panneau latéral des commentaires en <button data-hypothesis-trigger>cliquant ici</button> ou en cliquant sur le bouton suivant en haut à droite du site web :
-<img src="/img/sidebar.png" alt="sidebar" />
+<img src="/img/sidebar_erm.png" alt="sidebar" />
 
 
 ### Saisie d'un nouveau commentaire
@@ -47,5 +47,5 @@ A noter: qu'il est possible de modifier votre commentaire une fois posté.
 ### Répondre à un commentaire
 
 Ouvrez tout d'abord le panneau latéral des commentaires, puis identifiez le commentaires auquel vous souhaitez répondre, puis répondez en cliquant ici :  
-<img src="/img/reply.png" alt="répondre" width="300px" />
+<img src="/img/reply_erm.png" alt="répondre" width="300px" />
 
