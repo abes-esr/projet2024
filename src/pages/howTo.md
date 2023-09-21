@@ -47,5 +47,5 @@ A noter: qu'il est possible de modifier votre commentaire une fois posté.
 ### Répondre à un commentaire
 
 Ouvrez tout d'abord le panneau latéral des commentaires, puis identifiez le commentaires auquel vous souhaitez répondre, puis répondez en cliquant ici :  
-<img src="/img/reply_erm.png" alt="répondre" width="400px" />
+<img src="/img/reply_erm.png" alt="répondre à un commentaire" width="400px" />
 
