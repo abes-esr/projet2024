@@ -9,7 +9,6 @@ env:
 on:
   push:
     paths-ignore:
- #     - '**.md'
       - '.github/**'
   workflow_dispatch:
 
