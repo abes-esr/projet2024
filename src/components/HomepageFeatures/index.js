@@ -24,7 +24,7 @@ Les contributions et observations recueillies en interne à l’Abes, auprès du
 </p>
 
 <p>
-L’objectif de cette consultation est d’en consolider la teneur avec vos retours en vue de la rédaction finale d’un projet précis, complet, au plus près des attentes et besoins de la communauté. Il sera présenté et soumis à validation du conseil d’administration de l’Abes le 20 novembre 2023. 
+L’objectif de cette consultation est d’en consolider la teneur avec <a href="/howTo/">vos retours</a> en vue de la rédaction finale d’un projet précis, complet, au plus près des attentes et besoins de la communauté. Il sera présenté et soumis à validation du conseil d’administration de l’Abes le 20 novembre 2023. 
 </p>
 
 <p>
