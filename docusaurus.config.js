@@ -44,10 +44,7 @@ const config = {
                  sidebarPath: require.resolve('./sidebars.js'),
                  includeCurrentVersion: false,
                    versions: {
-                       'X.Y': {
-                           label: ' version pour mode d\'emploi versionning',
-                           path: 'X.Y',
-                       },
+
                        '1.0': {
                            label: 'version 1.0 ouverte à commentaire',
                            path: '1.0',
