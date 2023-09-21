@@ -4,6 +4,8 @@ description: Page d'aide à la saisie des commentaires sur le projet de l'Abes
 hide_table_of_contents: false
 ---
 
+import ConsulterProjetAbesLink from '@site/src/components/ConsulterProjetAbesLink';
+
 # Comment déposer vos commentaires sur le projet de l'Abes ?
 
 Vous trouverez sur cette page un guide d'utilisation de l'outil `hypothes.is` permettant de déposer des commentaires publics sur le projet d'établissement 2024-2028 de l'Abes. Le principe de cet outil est de permettre de réaliser des annotations sur le texte du projet lui même en surlignant des parties du texte où vous pourrez alors déposer vos commentaires.
@@ -21,9 +23,10 @@ Pour être en mesure de déposer ces commentaires, une inscription préalable su
 
 ### Ouvrir la version du projet que l'on souhaite commenter
 
-La première étape pour commenter consiste à ouvrir dans votre navigateur web la version du projet que vous souhaitez commenter. Il est recommandé de **commenter uniquement la dernière version du projet**. Pour s'assurer que c'est la dernière version du projet que vous êtes en train de commenter, référez vous au lien `Consulter le projet` sur la [page d'acceuil](/) qui vous y amennera ou au menu déroulant en haut du site web qui vous permet de naviguer dans les versions du projet.
+La première étape pour commenter consiste à ouvrir dans votre navigateur web la version du projet que vous souhaitez commenter. Il est recommandé de **commenter uniquement la dernière version du projet**. Voici le lien que vous retrouverez également sur la [page d'acceuil](/) qui vous permet d'accéder à cette dernière version : <ConsulterProjetAbesLink />
 
-TODO, reste à faire pour Pierre, Emilie et Stéphane : adapter cette explication en fonction du système de versionning retenu. 
+A noter qu'à titre informatif, nous laisserons affichées et accessibles les anciennes versions du projet dans le menu déroulant dans le haut de la page :  
+![Versions du projet](/img/versions-du-projet.png)
 
 ### Consulter les commentaires déjà déposés
 
