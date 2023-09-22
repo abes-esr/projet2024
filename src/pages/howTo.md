@@ -14,7 +14,7 @@ Vous trouverez sur cette page un guide d'utilisation de l'outil `hypothes.is` pe
 
 Pour être en mesure de déposer ces commentaires, une inscription préalable sur la plateforme `hypothes.is` est requise. 
 
-- ouvrez le **panneau des commentaires**, pour cela cliquez sur le petit bouton vous trouverez en haut à droite de la page : <br/><img src="/img/sidebar_erm.png" alt="sidebar" width="250px" />
+- ouvrez le **panneau des commentaires**, pour cela <button data-hypothesis-trigger>cliquez ici</button> ou cliquez sur le petit bouton vous trouverez en haut à droite de la page : <br/><img src="/img/sidebar_erm.png" alt="sidebar" width="250px" />
 - puis cliquez sur [Sign up](https://hypothes.is/signup) et renseignez le formulaire d'inscription avec un nom d'utilisateur, une adresse email (merci d'utiliser votre adresse professionnelle), un mot de passe et cochez à minima la première case pour accepter les conditions d'utilisation : <br/><img src="/img/signup.png" alt="formulaire d'inscription" width="300px" />
 - consultez ensuite votre boite mail pour activer votre compte `hypothes.is`
 - une fois votre compte activé, vous pouvez revenir sur [https://projet2024.abes.fr](https://projet2024.abes.fr) dans le panneau des commentaires, et vous connecter en cliquant sur `Log in`.
