@@ -4,7 +4,7 @@
 
 Dépôt de l'application [docusaurus 2](https://docusaurus.io/) permettant l'ouverture publique du projet d'établissement 2024-2028 de l'Abes sur le site web https://projet2024.abes.fr
 
-Le site est déployé à l'aide de la configuration suivante :  
+Le site est déployésur les environnements de dev,test,prod à l'aide de la configuration suivante :  
 https://github.com/abes-esr/projet2024-docker
 
 
