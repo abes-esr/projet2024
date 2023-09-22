@@ -17,7 +17,7 @@ La version de travail du projet d'établissement est un docx partagé entre tous
 
 ``` bash
 cd projet2024/docs/
-pandoc -s ../Projet\ d\'établissement\ de\ l\'Abes\ 2024-2028\ -\ v1.0.docx -t gfm -o ./projet2024.md --extract-media=.
+pandoc -s ../Projet\ d\'établissement\ de\ l\'Abes\ 2024-2028\ -\ v1.1.docx -t gfm -o ./projet2024.md --extract-media=.
 
 # nettoyage de la tabe des matières qui n'a pas d'intérêt dans la version markdown (autogénérée)
 sed -i -n '/# Résumé exécutif/,$p' ./projet2024.md
@@ -26,9 +26,13 @@ sed -i -n '/# Résumé exécutif/,$p' ./projet2024.md
 sed -i 's/^#/##/' ./projet2024.md
 
 # ajout du H1 de la page
-echo "# Projet d’établissement 2024-2028 de l'Abes
+echo "
+---
+title: version 1.1
+---
+# Projet d’établissement 2024-2028 de l'Abes
 
-Version 1.0 du projet d'établissement 2024-2028 de l'Abes publiée au 15/09/2023.
+Version 1.1 du projet d'établissement 2024-2028 de l'Abes publiée au 26/09/2023.
 
 " > ./projet2024-head.md
 cat ./projet2024-head.md ./projet2024.md > ./projet2024-final.md
