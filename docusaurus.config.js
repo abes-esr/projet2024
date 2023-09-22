@@ -45,7 +45,7 @@ const config = {
                  includeCurrentVersion: false,
                    versions: {
 
-                       '1.0': {
+                       '1.1': {
                            label: 'version 1.1 ouverte à commentaire',
                            path: '1.1',
                        },
