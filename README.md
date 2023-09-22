@@ -13,7 +13,7 @@ https://github.com/abes-esr/projet2024-docker
 
 ### Etape 1 : passer du docx au markdown
 
-La version de travail du projet d'établissement est un docx partagé entre tous les membres de l'équipe projet. Pour la publier il est nécessaire de convertir le docx en markdown. Voici les commandes permettant de le faire :
+La version de travail du projet d'établissement est un docx partagé entre tous les membres de l'équipe projet. Pour la publier il est nécessaire de convertir le docx en markdown. Voici les commandes linux permettant de le faire :
 
 ``` bash
 cd projet2024/docs/
