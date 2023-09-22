@@ -1,9 +1,13 @@
+---
+title: version 1.1
+---
+
 # Projet d’établissement 2024-2028 de l'Abes
 
 Version 1.1 du projet d'établissement 2024-2028 de l'Abes publiée au 26/09/2023.
 
 
-## Résumé exécutif
+## 1\. Résumé exécutif
 
 L’Abes souhaite grâce à ce projet affirmer son rôle dans la *fourniture
 de métadonnées de qualité aux organisations de l’enseignement supérieur
@@ -27,7 +31,7 @@ par des objectifs de courts et moyens termes :
 
   - Adapter l’agence à ces nouvelles orientations
 
-## Renouveler le Système d’Information de l’Abes
+## 2\. Renouveler le Système d’Information de l’Abes
 
 Historiquement, il y a eu deux périodes distinctes d’organisation du SID
 à l’Abes : dans la première moitié de la vie de l’Abes, son SID a été
@@ -42,7 +46,7 @@ ont une indépendance plus importante par rapport à CBS.
 
 ![Vue simplifiée du SI métier de l'Abes](./media/image1.png)
 
-Figure 1 - vue simplifiée du SI métier de l'Abes
+Figure - vue simplifiée du SI métier de l'Abes
 
 Cet ensemble est devenu progressivement plus complexe et lourd à gérer,
 il a accumulé une dette technique qui représente aujourd'hui un risque
@@ -51,7 +55,7 @@ place de nouveaux services et limite la capacité de l’agence à
 renouveler son offre pour répondre plus efficacement aux besoins des
 établissements et à leurs évolutions.
 
-### Le cadre et les objectifs d’une réinformatisation
+### 2.1 Le cadre et les objectifs d’une réinformatisation
 
 Ce projet priorisera donc le renouvellement du système d’information
 métier de l’Abes. L’action de l’Abes sur ce point sera guidée par les
@@ -115,7 +119,7 @@ aujourd'hui sur le marché doit être nuancé sur plusieurs points :
     aussi représenter un atout en termes d’autonomie et fera l'objet
     d'une instruction spécifique
 
-### Une politique des interfaces web
+### 2.2 Une politique des interfaces web
 
 Une partie des interfaces proposées par l’Abes devra être renouvelée
 dans le cadre du changement de SI. Ce changement des interfaces
@@ -155,9 +159,9 @@ suivants, par ordre décroissant de priorité :
     façon autonome une interface de recherche qui porte sur un périmètre
     de données qui leur est propre
 
-## Une « base de métadonnées » pour l’ESR
+## 3\. Une « base de métadonnées » pour l’ESR
 
-### Un signalement de masse utilisant les flux de données 
+### 3.1 Un signalement de masse utilisant les flux de données 
 
 Le signalement des ressources, et tout particulièrement celui des
 ressources électroniques, devient de plus en plus chronophage au regard
@@ -185,7 +189,7 @@ sont fortes. Ces attentes sont de deux ordres :  
 L’Abes souhaite y répondre en s’appuyant sur les fonctionnalités et
 ressources du nouveau système d’information.
 
-### Une volumétrie plus importante
+### 3.2 Une volumétrie plus importante
 
 L’Abes cherchera à établir une politique d’imports de données plus
 ambitieuse, en particulier pour la documentation électronique. Si des
@@ -196,7 +200,7 @@ dans les établissements de l’ESR. Cette politique doit englober les
 différents niveaux de granularité des métadonnées (ebooks et chapitres
 d’ebooks, les revues et articles, bouquets, etc.).
 
-### Prioriser les flux de données
+### 3.3 Prioriser les flux de données
 
   - Etendre les flux de localisation. Il s’agit de généraliser et
     standardiser les flux mis en place ces dernières années pour une
@@ -223,7 +227,7 @@ d’ebooks, les revues et articles, bouquets, etc.).
     partenaires (qu’il s’agisse de leurs outils propres ou de ceux de
     leurs prestataires).
 
-### Définir une politique des données
+### 3.4 Définir une politique des données
 
 Dans tous les échanges avec les réseaux de l’Abes, la question de la
 qualité des données diffusées par l’Abes revient de manière récurrente.
@@ -254,7 +258,7 @@ réutilisation. 
     numérisation nationaux, pourraient par exemple être spécifiquement
     ciblés.
 
-### Référentiels : contribuer à la simplification et à la lisibilité du paysage de l’ESR par un référentiel des agents
+### 3.5 Référentiels : contribuer à la simplification et à la lisibilité du paysage de l’ESR par un référentiel des agents
 
 L’Abes et, avec elle, les réseaux documentaires ont une longue habitude
 de création d’autorités auteur et collectivité associées aux
@@ -288,7 +292,7 @@ agents représentera pour l’Abes une étape concrète sur le chemin qui
 mène d’un catalogue bibliographique à un modèle de données entités –
 relations.
 
-## Acquisitions de documentation électronique
+## 4\. Acquisitions de documentation électronique
 
 Il est impératif que ce travail mené en collaboration avec Couperin mais
 qui n’est pas à ce stade une mission inscrite dans les statuts de
@@ -299,7 +303,7 @@ l'Abes, Couperin et le MESR. Un effort particulier sera fait en ce sens
 en 2024 pour arriver progressivement à stabiliser l’activité sur la
 durée du projet.
 
-### Assurer la soutenabilité de la mission. 
+### 4.1 Assurer la soutenabilité de la mission. 
 
 Il est impératif de sécuriser le modèle économique de cette activité
 pour l’Abes. Le suivi de l’activité des 15 groupements de commande
@@ -315,7 +319,7 @@ volet juridique des négociations, vont croissant.
   - L’Abes devra par ailleurs travailler avec la tutelle à
     l’officialisation réglementaire de cette mission dans ses statuts
 
-### Définir des critères pour des « groupements de commandes à portée nationale »
+### 4.2 Définir des critères pour des « groupements de commandes à portée nationale »
 
 L’Abes analyse aujourd’hui les demandes de portage des groupements de
 commande au cas par cas. Une politique de portage aux critères
@@ -337,7 +341,7 @@ Il s’agit de parvenir à une grille d’analyse objective et commune
 permettant de décider ou non du portage d’un groupement de commande, et
 d’asseoir ainsi le portefeuille pris en charge par l’Abes.
 
-### Définir le périmètre d’intervention fonctionnel de l’Abes
+### 4.3 Définir le périmètre d’intervention fonctionnel de l’Abes
 
 La complexité croissante des groupements de commande notée ci-dessus a
 rendu progressivement, ces dix dernières années, la frontière entre
@@ -350,7 +354,7 @@ Cette adaptation pragmatique sera réexaminée plus explicitement par les
 deux partenaires pour aboutir en commun à un nouveau formalisme
 permettant de mieux exploiter les compétences des uns et des autres.
 
-## Réseaux et partenaires
+## 5\. Réseaux et partenaires
 
 Une adaptation des dispositifs d’accompagnement des utilisateurs et
 partenaires des produits et services de l’Abes est rendue nécessaire par
@@ -360,7 +364,7 @@ l’agence où les dispositifs nés avec la mise en place du Sudoc et
 progressivement étendus depuis au fil de l’extension des services ont
 besoin d’être repensés globalement.
 
-### De nouveaux réseaux
+### 5.1 De nouveaux réseaux
 
 Déployer des efforts de développement, d’animation et de suivi
 spécifiques pour :
@@ -383,7 +387,7 @@ spécifiques pour :
   - Un réseau Sudoc-PS renouvelé dans sa structuration et ses objectifs,
     en collaboration avec les réseaux de la Culture
 
-### Une relation aux réseaux renouvelée
+### 5.2 Une relation aux réseaux renouvelée
 
 Redéfinir une stratégie globale de liens avec les réseaux, y compris
 pour les réseaux existants, dans un objectif d’efficience. Il s’agit
@@ -407,7 +411,7 @@ englobe :
   - Inscrire dans l’organisation de l’agence les mécanismes nécessaires
     au recueil constant des besoins utilisateurs
 
-## Renforcer la politique de Recherche et Développement
+## 6\. Renforcer la politique de Recherche et Développement
 
 Le labo de l’Abes mène depuis plusieurs années des travaux et réflexions
 autour de l’intelligence artificielle (IA). La volonté exprimée dans ce
@@ -452,7 +456,7 @@ projet :
   - Proposer des services d’assistance par l’IA aux utilisateurs des
     logiciels proposés par l’agence
 
-## Organisation, GPEEC, missions et évaluation
+## 7\. Organisation, GPEEC, missions et évaluation
 
 Une fois les objectifs du projet validés, l’Abes doit s’organiser pour
 le mettre en œuvre. C’est en soi une partie du projet, qui nécessite des
