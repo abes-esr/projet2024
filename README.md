@@ -20,16 +20,16 @@ cd projet2024/docs/
 pandoc -s ../Projet\ d\'établissement\ de\ l\'Abes\ 2024-2028\ -\ v1.1.docx -t gfm -o ./projet2024.md --extract-media=.
 
 # nettoyage de la tabe des matières qui n'a pas d'intérêt dans la version markdown (autogénérée)
-sed -i -n '/# Résumé exécutif/,$p' ./projet2024.md
+sed -i -n '/# 1\\. Résumé exécutif/,$p' ./projet2024.md
 
 # ajout d'un niveau de titre pour qu'il n'y ai qu'un H1 dans la page
 sed -i 's/^#/##/' ./projet2024.md
 
 # ajout du H1 de la page
-echo "
----
+echo "---
 title: version 1.1
 ---
+
 # Projet d’établissement 2024-2028 de l'Abes
 
 Version 1.1 du projet d'établissement 2024-2028 de l'Abes publiée au 26/09/2023.
