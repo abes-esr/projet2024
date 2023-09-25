@@ -79,3 +79,15 @@ Une fois le document prêt en markdown, il faut la publiée de manière versionn
 </Link>
 ```
 
+### Etape 3 : publier en production
+
+Une fois les étapes 1 et 2 bien testée sur les environnements de dev et test, pour passer le résultat en production il est nécessaire de générer une release. Les étapes à suivre sont expliquées dans [la politique de développement de l'Abes ici](https://github.com/abes-esr/abes-politique-developpement/blob/main/01-Gestion%20du%20code%20source.md#publier-une-nouvelle-release-dune-application).
+
+La seule subtilité concerne le nommage de la version à 3 chiffres `X.Y.Z`. En effet dans le cas de projet2024, nous cherchons à faire cohabiter la numérotation habituelle `X.Y.Z` avec la numérotation abrégée `X.Y` choisie dans le cadre du projet2024. La règle à respecter pour numéroter les release git est la suivante :
+conserver la numérotation relative au contenu du projet2024 pour les deux premiers chiffres et éventuellement incrémenter le dernier chiffre si plusieurs releases sont nécessaires relatives à un contenu qui n'a pas bougé (par exemple ajustement de la forme, d'un logo, d'une typo).
+
+Exemple sur un cas réel :
+- si le contenu du projet2024 est numéroté `1.1` (cf répertoire `versionned_docs/version-1.1/`)
+- alors pour passer en production, on s'aide de [create-release.yml](https://github.com/abes-esr/projet2024/actions/workflows/create-release.yml), et on choisi une numérotation `1.1.0` pour la release
+- ensuite dans la foulée, on si on a oublié un logo ou une typo dans le texte, on fait la modif en dev/test, puis on peut regénérer une release à l'aide de [create-release.yml](https://github.com/abes-esr/projet2024/actions/workflows/create-release.yml), avec le numéro de release `1.1.1`
+- et ainsi de suite `1.1.2`, `1.1.3` etc ...
