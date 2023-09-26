@@ -27,11 +27,6 @@ L’objectif de cette consultation est d’en consolider la teneur avec <a href=
 Vous pouvez commenter ce projet à l’aide de la plateforme d’annotation Hypothesis : <a href="/howTo/">un guide d’utilisation est disponible sur ce site</a>.
 </p>
 
-<p>
-Compte tenu du calendrier des opérations à venir, la consultation du document est accessible jusqu’au 31/12/2023.
-</p>
-
-
       </>
     ),
   },
