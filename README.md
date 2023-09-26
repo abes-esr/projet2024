@@ -74,7 +74,7 @@ Une fois le document prêt en markdown, il faut la publiée de manière versionn
 ```
 <Link  
   className="button button--secondary button--lg"  
-  to="/docs/X.Y/projet2024/">  
+  to="/docs/X.Y/projet2024">  
   Consulter le projet  
 </Link>
 ```
