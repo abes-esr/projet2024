@@ -39,10 +39,9 @@ Pour consulter vos commentaires ou consulter les commentaires publics déjà dé
 Pour ajouter un nouveau commentaire, sélectionner le morceau de texte concerné sur la page et trois options s'afficheront :  
 ![Boite à outils](/img/toolbox.png)
 
-- Pour ajouter votre commentaire, cliquez alors sur le bouton ![Annoter](/img/annotate.png)
-- Pour mettre en surbrillance, cliquez sur le bouton ![surbrillance](/img/highlight.png). A noter que les textes mis surbrillance ne seront visibles que par vous.
+- Pour ajouter votre commentaire, cliquez alors sur le bouton ![Annoter](/img/annotate.png). Il est possible de modifier votre commentaire une fois posté.
+- Pour mettre en surbrillance, cliquez sur le bouton ![surbrillance](/img/highlight.png). A noter que les textes mis en surbrillance ne seront visibles que par vous.
 
-A noter: qu'il est possible de modifier votre commentaire une fois posté.
 
 ### Répondre à un commentaire
 
