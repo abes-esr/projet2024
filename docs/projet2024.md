@@ -79,7 +79,7 @@ Le projet aura pour objectif de couvrir au sein d'un même système les
 métadonnées qui concernent tant la documentation papier que la
 documentation électronique, au-delà des niveaux livres et revues, en
 intégrant le niveau bouquet commercial, voire le niveau des chapitres
-et articles. Plus généralement, un rassemblement, et partant une
+et articles. Plus généralement, un rassemblement, et partant d'une
 réduction de la quantité actuelle des bases et outils de gestion de
 métadonnées composant le SI de l'Abes, sont fortement souhaitées.
 Concernant les données, il est fortement souhaité que le nouveau système
