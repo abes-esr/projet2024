@@ -27,6 +27,10 @@ L’objectif de cette consultation est d’en consolider la teneur avec <a href=
 Vous pouvez commenter ce projet à l’aide de la plateforme d’annotation Hypothesis : <a href="/howTo/">un guide d’utilisation est disponible sur ce site</a>.
 </p>
 
+<p>
+En cas de besoins d'échanges plus approfondis, vous avez également la possibilité de contacter l'équipe projet de l'Abes à l'adresse <code>pe2024 [at] abes.fr</code>.
+</p>
+  
       </>
     ),
   },
