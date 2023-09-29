@@ -430,13 +430,13 @@ activités, l’automatisation de tâches.
 
 L’Abes veillera à ce que ces travaux répondent à des objectifs
 d’industrialisation : une fois avéré l’intérêt d’un marché de taille
-critique, la création d’une offre issue du processus de R\&D doit
+critique, la création d’une offre issue du processus de R&D doit
 pouvoir être transférée à l’échelle dans les processus et les outils
 proposés à l’ensemble des partenaires.
 
-L’Abes mènera ces travaux de R\&D dans le cadre de partenariats :
+L’Abes mènera ces travaux de R&D dans le cadre de partenariats :
 
-  - Organisations ayant des démarches similaires de R\&D utilisant l’IA
+  - Organisations ayant des démarches similaires de R&D utilisant l’IA
     dans le secteur documentaire
 
   - Partenaires permettant de valider les cas d’usages, en particulier
