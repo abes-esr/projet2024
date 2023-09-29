@@ -25,6 +25,9 @@ sed -i -n '/# 1\\. Résumé exécutif/,$p' ./projet2024.md
 # ajout d'un niveau de titre pour qu'il n'y ai qu'un H1 dans la page
 sed -i 's/^#/##/' ./projet2024.md
 
+# typo: pandoc rajoute un anti-slash devant le & de R&D !
+sed -i 's#R\\&D#R\&D#g' ./projet2024.md
+
 # ajout du H1 de la page
 echo "---
 title: version 1.1
