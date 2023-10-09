@@ -28,6 +28,10 @@ Vous pouvez commenter ce projet à l’aide de la plateforme d’annotation Hypo
 </p>
 
 <p>
+Commentaires ouverts jusqu'au 30 octobre 2023 pour prise en compte dans la rédaction finale.
+</p>
+
+<p>
 En cas de besoins d'échanges plus approfondis, vous avez également la possibilité de contacter l'équipe projet de l'Abes à l'adresse <code>pe2024 [at] abes.fr</code>.
 </p>
   
