@@ -21,3 +21,25 @@
   align-items: center;
   justify-content: center;
 }
+
+
+/* Personnalisation du diagrame de gantt (calendrier du projet2024 de l'Abes)
+   pour lui permettre de scroller horizontalement sur un niveau de zoom acceptable.
+   Sans cela le calendrier devient illisible.*/
+@media (min-width: 997px) {
+  div:has(> svg[aria-roledescription="gantt"]) {
+    overflow-x: scroll;
+  }
+  svg[aria-roledescription="gantt"] {
+    max-width: 160%;
+    width: 160%;
+    height: auto;  
+  }
+}
+
+/* pour cacher la sidebar hypothesis qd on cherche à imprimer */
+@media print {
+  hypothesis-sidebar {
+    display: none;
+  }
+}

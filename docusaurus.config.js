@@ -32,6 +32,15 @@ const config = {
         defaultLocale: 'fr',
         locales: ['fr'],
     },
+    
+    // pour avoir la possibilité de faire des diagrames de gantt dans le markdown
+    // exemple: https://docusaurus.io/fr/tests/pages/diagrams#gantt-chart
+    // cf https://docusaurus.io/fr/docs/next/markdown-features/diagrams
+    markdown: {
+        mermaid: true,
+    },
+    themes: ['@docusaurus/theme-mermaid'],
+
     plugins: [
         'docusaurus-plugin-matomo',
     ],
@@ -78,6 +87,11 @@ const config = {
     themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
+            // options pour le plugin gantt
+            mermaid: {
+                options: {
+                },
+            },
             // Replace with your project's social card
             //  image: 'img/docusaurus-social-card.jpg',
             tableOfContents: {
