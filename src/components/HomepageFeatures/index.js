@@ -16,7 +16,7 @@ L’Abes travaille depuis janvier 2023 à la conception de son projet d’établ
 
 
 <p>
-Le document qui vous est proposé pour commentaire a été déposé sous une première version, enrichie des discussions qui ont eu lieu à ce sujet lors du Conseil d’administration du 14 septembre. Une <strong>seconde version de ce texte, comportant d’importants amendements, a été déposée le lundi 23 octobre</strong> (la version 1 ainsi que les commentaires précédemment déposés ont été conservés).
+Le document qui vous est proposé pour commentaire a été déposé sous une première version, enrichie des discussions qui ont eu lieu à ce sujet lors du Conseil d’administration du 14 septembre. Une <strong>seconde version de ce texte, comportant d’importants amendements et accompagnée d’un calendrier prévisionnel, a été déposée le lundi 23 octobre</strong> (la version 1 ainsi que les commentaires précédemment déposés ont été conservés).
 </p>
 
 <p>
