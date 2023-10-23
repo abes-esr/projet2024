@@ -53,29 +53,20 @@ const config = {
                  sidebarPath: require.resolve('./sidebars.js'),
                  includeCurrentVersion: false,
                    versions: {
-
-                       '1.1': {
-                           label: 'version 1.1 ouverte à commentaire',
-                           path: '1.1',
-                       },
-                                         },
-                  /*   lastVersion: 'current',
-                   versions: {
-                       current: {
-                           label: 'version 1.1 ouverte à commentaire',
-                           path: '1.1',
-                       },
-                       '1.0': {
-                           label: 'version 1.0  archivée',
-                           path: '1.0',
-                       },
-                   },*/
-
+                        '2.2': {
+                            label: 'version 2.2 ouverte à commentaire',
+                            path: '2.2',
+                        },
+                        '1.1': {
+                            label: 'version 1.1 archivée',
+                            path: '1.1',
+                        },
+                    },
                },
-                blog: false,
-                theme: {
+               blog: false,
+               theme: {
                     customCss: require.resolve('./src/css/custom.css'),
-                },
+               },
 
             })
         ],

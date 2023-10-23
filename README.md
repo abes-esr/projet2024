@@ -40,6 +40,13 @@ Version 1.1 du projet d'établissement 2024-2028 de l'Abes publiée au 26/09/202
 " > ./projet2024-head.md
 cat ./projet2024-head.md ./projet2024.md > ./projet2024-final.md
 mv  ./projet2024-final.md ./projet2024.md && rm ./projet2024-head.md
+
+# ajout de la section 8 pour le calendrier prévisionnel
+echo "
+## 8\. Calendrier prévisionnel
+
+[Voir cette page qui présente le calendrier prévisionnel du projet 2024-2028 de l'Abes](projet2024-calendrier).
+" >> ./projet2024.md
 ```
 
 Il faut ensuite commit/push le nouveau md après avoir vérifié qu'il est propre.
