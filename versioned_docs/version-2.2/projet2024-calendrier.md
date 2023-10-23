@@ -14,7 +14,7 @@ gantt
 
     Début du projet         :milestone,2024-01-01,0d
       phase 1 - Mise en oeuvre du projet étape 1    :2024-01-01,2024-12-31
-      phase 1 - Mise en oeuvre du projet étape 2    :2025-01-01,2028-12-31
+      phase 2 - Mise en oeuvre du projet étape 2    :2025-01-01,2028-12-31
     Fin du projet           :milestone,2028-12-31,0d
 ```
 
