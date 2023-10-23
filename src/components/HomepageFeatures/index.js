@@ -28,7 +28,7 @@ Vous pouvez commenter ce projet à l’aide de la plateforme d’annotation Hypo
 </p>
 
 <p>
-Les contributions sont ouvertes jusqu'au lundi 30 octobre 2023 pour prise en compte dans la rédaction finale.
+Les contributions sont ouvertes jusqu'au mardi 31 octobre 2023 pour prise en compte dans la rédaction finale.
 </p>
 
 <p>
