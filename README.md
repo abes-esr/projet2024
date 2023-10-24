@@ -49,7 +49,7 @@ mv  ./projet2024-final.md ./projet2024.md && rm ./projet2024-head.md
 echo "
 ## 8\. Calendrier prévisionnel
 
-[Voir cette page qui présente le calendrier prévisionnel du projet 2024-2028 de l'Abes](projet2024-calendrier).
+[Voir cette page qui présente le calendrier prévisionnel du projet 2024-2028 de l'Abes](./projet2024-calendrier).
 " >> ./projet2024.md
 
 # copie dans la version en question (2.2 dans cet exemple)
