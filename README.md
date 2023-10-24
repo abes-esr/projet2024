@@ -17,6 +17,7 @@ La version de travail du projet d'établissement est un docx partagé entre tous
 
 ``` bash
 cd projet2024/docs/
+cp ../Projet\ d\'établissement\ de\ l\'Abes\ 2024-2028\ -\ calendrier\ -\ v2.2.md ./projet2024-calendrier.md
 pandoc -s ../Projet\ d\'établissement\ de\ l\'Abes\ 2024-2028\ -\ v2.2.docx -t gfm -o ./projet2024.md --extract-media=.
 
 # nettoyage de la tabe des matières qui n'a pas d'intérêt dans la version markdown (autogénérée)
@@ -27,6 +28,9 @@ sed -i 's/^#/##/' ./projet2024.md
 
 # typo: pandoc rajoute un anti-slash devant le & de R&D !
 sed -i 's#R\\&D#R\&D#g' ./projet2024.md
+
+# style des critères de réussites qui n'apparaissent pas soulignés
+sed -i 's/<span class="underline">\([^<]*\)<\/span>/<u>\1<\/u>/g' ./projet2024.md
 
 # ajout du H1 de la page
 echo "---
@@ -47,6 +51,9 @@ echo "
 
 [Voir cette page qui présente le calendrier prévisionnel du projet 2024-2028 de l'Abes](projet2024-calendrier).
 " >> ./projet2024.md
+
+# copie dans la version en question (2.2 dans cet exemple)
+cp -r * ../versioned_docs/version-2.2/
 ```
 
 Il faut ensuite commit/push le nouveau md après avoir vérifié qu'il est propre.
