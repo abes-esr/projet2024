@@ -16,7 +16,8 @@ const config = {
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/',
-
+    trailingSlash: false,
+    
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'abes-esr', // Usually your GitHub org user name.
@@ -32,6 +33,15 @@ const config = {
         defaultLocale: 'fr',
         locales: ['fr'],
     },
+    
+    // pour avoir la possibilité de faire des diagrames de gantt dans le markdown
+    // exemple: https://docusaurus.io/fr/tests/pages/diagrams#gantt-chart
+    // cf https://docusaurus.io/fr/docs/next/markdown-features/diagrams
+    markdown: {
+        mermaid: true,
+    },
+    themes: ['@docusaurus/theme-mermaid'],
+
     plugins: [
         'docusaurus-plugin-matomo',
     ],
@@ -44,29 +54,20 @@ const config = {
                  sidebarPath: require.resolve('./sidebars.js'),
                  includeCurrentVersion: false,
                    versions: {
-
-                       '1.1': {
-                           label: 'version 1.1 ouverte à commentaire',
-                           path: '1.1',
-                       },
-                                         },
-                  /*   lastVersion: 'current',
-                   versions: {
-                       current: {
-                           label: 'version 1.1 ouverte à commentaire',
-                           path: '1.1',
-                       },
-                       '1.0': {
-                           label: 'version 1.0  archivée',
-                           path: '1.0',
-                       },
-                   },*/
-
+                        '2.2': {
+                            label: 'version 2.2 ouverte à commentaire',
+                            path: '2.2',
+                        },
+                        '1.1': {
+                            label: 'version 1.1 archivée',
+                            path: '1.1',
+                        },
+                    },
                },
-                blog: false,
-                theme: {
+               blog: false,
+               theme: {
                     customCss: require.resolve('./src/css/custom.css'),
-                },
+               },
 
             })
         ],
@@ -78,6 +79,11 @@ const config = {
     themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
+            // options pour le plugin gantt
+            mermaid: {
+                options: {
+                },
+            },
             // Replace with your project's social card
             //  image: 'img/docusaurus-social-card.jpg',
             tableOfContents: {

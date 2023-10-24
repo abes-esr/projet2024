@@ -17,7 +17,8 @@ La version de travail du projet d'établissement est un docx partagé entre tous
 
 ``` bash
 cd projet2024/docs/
-pandoc -s ../Projet\ d\'établissement\ de\ l\'Abes\ 2024-2028\ -\ v1.1.docx -t gfm -o ./projet2024.md --extract-media=.
+cp ../Projet\ d\'établissement\ de\ l\'Abes\ 2024-2028\ -\ calendrier\ -\ v2.2.md ./projet2024-calendrier.md
+pandoc -s ../Projet\ d\'établissement\ de\ l\'Abes\ 2024-2028\ -\ v2.2.docx -t gfm -o ./projet2024.md --extract-media=.
 
 # nettoyage de la tabe des matières qui n'a pas d'intérêt dans la version markdown (autogénérée)
 sed -i -n '/# 1\\. Résumé exécutif/,$p' ./projet2024.md
@@ -28,18 +29,31 @@ sed -i 's/^#/##/' ./projet2024.md
 # typo: pandoc rajoute un anti-slash devant le & de R&D !
 sed -i 's#R\\&D#R\&D#g' ./projet2024.md
 
+# style des critères de réussites qui n'apparaissent pas soulignés
+sed -i 's/<span class="underline">\([^<]*\)<\/span>/<u>\1<\/u>/g' ./projet2024.md
+
 # ajout du H1 de la page
 echo "---
-title: version 1.1
+title: version 2.2
 ---
 
 # Projet d’établissement 2024-2028 de l'Abes
 
-Version 1.1 du projet d'établissement 2024-2028 de l'Abes publiée au 26/09/2023.
+Version 2.2 du projet d'établissement 2024-2028 de l'Abes publiée au 24/10/2023.
 
 " > ./projet2024-head.md
 cat ./projet2024-head.md ./projet2024.md > ./projet2024-final.md
 mv  ./projet2024-final.md ./projet2024.md && rm ./projet2024-head.md
+
+# ajout de la section 8 pour le calendrier prévisionnel
+echo "
+## 8\. Calendrier prévisionnel
+
+[Voir cette page qui présente le calendrier prévisionnel du projet 2024-2028 de l'Abes](./projet2024-calendrier).
+" >> ./projet2024.md
+
+# copie dans la version en question (2.2 dans cet exemple)
+cp -r * ../versioned_docs/version-2.2/
 ```
 
 Il faut ensuite commit/push le nouveau md après avoir vérifié qu'il est propre.
