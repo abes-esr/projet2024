@@ -16,11 +16,11 @@ L’Abes travaille depuis janvier 2023 à la conception de son projet d’établ
 
 
 <p>
-Le document qui vous est proposé pour commentaire a été déposé sous une première version, enrichie des discussions qui ont eu lieu à ce sujet lors du Conseil d’administration du 14 septembre. Une <strong>seconde version de ce texte, comportant d’importants amendements et accompagnée d’un calendrier prévisionnel, a été déposée le lundi 23 octobre</strong> (la version 1 ainsi que les commentaires précédemment déposés ont été conservés).
+Le document qui vous est proposé pour commentaire a été déposé sous une <a href="/docs/1.1/projet2024">première version</a>, enrichie des discussions qui ont eu lieu à ce sujet lors du Conseil d’administration du 14 septembre. Une <strong>seconde version de ce texte, comportant d’importants amendements et accompagnée d’un calendrier prévisionnel, a été déposée le mardi 24 octobre</strong> (la <a href="/docs/1.1/projet2024">version 1</a> ainsi que les commentaires précédemment déposés ont été conservés).
 </p>
 
 <p>
-L’objectif de cette consultation est d’en consolider la teneur avec <a href="/howTo/">vos retours</a> en vue de la rédaction finale d’un projet précis, complet, au plus près des attentes et besoins de la communauté. Il sera présenté et soumis à validation du conseil d’administration de l’Abes le lundi 20 novembre 2023. 
+L’objectif de cette consultation est d’en consolider la teneur avec vos retours en vue de la rédaction finale d’un projet précis, complet, au plus près des attentes et besoins de la communauté. Il sera présenté et soumis à validation du conseil d’administration de l’Abes le lundi 20 novembre 2023. 
 </p>
 
 <p>
