@@ -25,12 +25,12 @@ gantt
       Mise en prod SGM étape 1 :milestone,m3,2027-01-01,0d
       Mise en prod SGM étape 2 :milestone,m4,2027-10-01,0d
       Mise en prod SGM étape 3 :milestone,m5,2028-10-01,0d
-      Maintenance prestataire(s)    :rp6,2026-10-01,2028-12-31
+      Maintenance prestataire(s)    :rp6,2027-01-01,2028-12-31
     
     section Réinformatisation - Abes
       phase 1 - coeur du système             :ra1,2024-09-09,2026-01-01
-      phase 2 - intégration satellite        :ra2,2026-01-01,2026-12-31
-      phase 3 - refonte satellite et nouveaux services :ra3,2026-10-01,2028-12-31
+      phase 2 - intégration satellite        :ra2,2026-01-01,2027-03-31
+      phase 3 - refonte satellite et nouveaux services :ra3,2027-01-01,2028-12-31
 
     Fin du projet           :milestone,2028-12-31,0d
 ```

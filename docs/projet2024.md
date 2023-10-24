@@ -1218,5 +1218,5 @@ vocation à s’étendre au-delà de la période de projet.
 
 ## 8\. Calendrier prévisionnel
 
-[Voir cette page qui présente le calendrier prévisionnel du projet 2024-2028 de l'Abes](projet2024-calendrier).
+[Voir cette page qui présente le calendrier prévisionnel du projet 2024-2028 de l'Abes](./projet2024-calendrier).
 
