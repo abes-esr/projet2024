@@ -25,6 +25,7 @@ FROM nginx:1.25 as projet2024-image
 # Copy what we've installed/built from production
 COPY --from=build-image /app/build /usr/share/nginx/html/
 COPY ./.docker/docker-entrypoint.sh /docker-entrypoint.sh
+COPY ./.docker/nginx-default.conf   /etc/nginx/conf.d/default.conf
 ENTRYPOINT ["/docker-entrypoint.sh"]
 CMD ["nginx", "-g", "daemon off;"]
 EXPOSE 80
