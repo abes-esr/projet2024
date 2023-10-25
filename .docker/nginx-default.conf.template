@@ -7,7 +7,11 @@ server {
 
         default_type "text/html";
         try_files  $uri $uri.html $uri/index.html index.html;
+        
+        rewrite ^/howTo/ ${PROJET2024_HTTP_BASEURL}/howTo permanent;
     }
+    
+
     error_page   500 502 503 504  /50x.html;
     location = /50x.html {
         root   /usr/share/nginx/html;

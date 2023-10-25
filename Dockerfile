@@ -14,7 +14,13 @@ COPY ./package*.json /app/
 RUN npm install
 
 # Copy the source code over
-COPY . /app/
+COPY ./docs/            /app/docs/
+COPY ./i18n/            /app/i18n/
+COPY ./src/             /app/src/
+COPY ./static/          /app/static/
+COPY ./versioned_docs/  /app/versioned_docs/
+COPY ./*.js /app/
+COPY ./*.json /app/
 
 # Build the Docusaurus app
 RUN npm run build
@@ -22,10 +28,8 @@ RUN npm run build
 ## Deploy ######################################################################
 # Use a stable nginx image
 FROM nginx:1.25 as projet2024-image
-# Copy what we've installed/built from production
 COPY --from=build-image /app/build /usr/share/nginx/html/
-COPY ./.docker/docker-entrypoint.sh /docker-entrypoint.sh
-COPY ./.docker/nginx-default.conf   /etc/nginx/conf.d/default.conf
-ENTRYPOINT ["/docker-entrypoint.sh"]
-CMD ["nginx", "-g", "daemon off;"]
-EXPOSE 80
+# notre entrypoint permettant entre autre d'injecter la variable d'env .docker/nginx-default.conf.template
+COPY ./.docker/docker-entrypoint.sh /docker-entrypoint.d/40-projet2024-docker-entrypoint.sh
+# la personnalisation de la config nginx pour projet2024
+COPY ./.docker/nginx-default.conf.template   /etc/nginx/templates/default.conf.template
