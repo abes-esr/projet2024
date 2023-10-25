@@ -24,7 +24,7 @@ L’objectif de cette consultation est d’en consolider la teneur avec vos reto
 </p>
 
 <p>
-Vous pouvez commenter ce projet à l’aide de la plateforme d’annotation Hypothesis : <a href="/howTo/">un guide d’utilisation est disponible sur ce site</a>.
+Vous pouvez commenter ce projet à l’aide de la plateforme d’annotation Hypothesis : <a href="/howTo">un guide d’utilisation est disponible sur ce site</a>.
 </p>
 
 <p>

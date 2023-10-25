@@ -116,7 +116,7 @@ const config = {
                        // sidebarId: 'tutorialSidebar',
                         position: 'left',
                       //  label: 'Comment ajouter vos commentaires',
-                        value:'<a href="/howTo/" class="navbar__item navbar__link"> <img src="/img/annotation.svg" alt=" " width="15rem" /> Comment commenter ?</a>'
+                        value:'<a href="/howTo" class="navbar__item navbar__link"> <img src="/img/annotation.svg" alt=" " width="15rem" /> Comment commenter ?</a>'
                     },
                     //    {to: '/blog', label: 'Blog', position: 'left'},
                     /*    {
