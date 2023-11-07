@@ -23,6 +23,11 @@ pandoc -s ../Projet\ d\'établissement\ de\ l\'Abes\ 2024-2028\ -\ v2.3.docx -t 
 # nettoyage de la tabe des matières qui n'a pas d'intérêt dans la version markdown (autogénérée)
 sed -i -n '/# 1\\. Résumé exécutif/,$p' ./projet2024.md
 
+# nettoyage de la section sur le calendrier car elle est auto-générée depuis le markdown
+sed -i '/## 8\\. Calendrier prévisionnel/,$d' ./projet2024.md
+
+## 8\. Calendrier prévisionnel
+
 # ajout d'un niveau de titre pour qu'il n'y ai qu'un H1 dans la page
 sed -i 's/^#/##/' ./projet2024.md
 
