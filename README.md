@@ -25,6 +25,7 @@ sed -i -n '/# 1\\. Résumé exécutif/,$p' ./projet2024.md
 
 # nettoyage de la section sur le calendrier car elle est auto-générée depuis le markdown
 sed -i '/## 8\\. Calendrier prévisionnel/,$d' ./projet2024.md
+rm -f media/image2.png media/image3.png media/image4.png media/image5.png media/image6.png media/image7.png
 
 ## 8\. Calendrier prévisionnel
 
