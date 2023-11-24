@@ -184,7 +184,7 @@ const config = {
             },
         }),
 
-
+/*
     // inclusion du panneau des commentaires de l'outil hypothes.is
     // cf lignes plus haut pour la configuration
     scripts: [
@@ -197,6 +197,7 @@ const config = {
             async: true
         },
     ]
+*/
 
 };
 
