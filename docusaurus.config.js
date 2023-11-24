@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'Projet d\'établissement 2024-2028 de l\'Abes',
-    tagline: 'Ouverture aux commentaires publics',
+    tagline: '',
 
     favicon: 'img/favicon.ico',
 
@@ -54,8 +54,12 @@ const config = {
                  sidebarPath: require.resolve('./sidebars.js'),
                  includeCurrentVersion: false,
                    versions: {
+                        '2.4': {
+                            label: 'version 2.4 finale',
+                            path: '2.4',
+                        },
                         '2.2': {
-                            label: 'version 2.2 ouverte à commentaire',
+                            label: 'version 2.2 archivée',
                             path: '2.2',
                         },
                         '1.1': {
@@ -111,19 +115,28 @@ const config = {
                         //dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
                         dropdownActiveClassDisabled: false,
                     },
-                   {
+                    {
+                        type: 'html',
+                       // sidebarId: 'tutorialSidebar',
+                        position: 'left',
+                      //  label: 'Comment ajouter vos commentaires',
+                        value:'<a href="/public-comments" class="navbar__item navbar__link"> <img src="/img/annotation.svg" alt=" " width="15rem" /> Commentaires publics</a>'
+                    },
+
+                    /*
+                    {
                         type: 'html',
                        // sidebarId: 'tutorialSidebar',
                         position: 'left',
                       //  label: 'Comment ajouter vos commentaires',
                         value:'<a href="/howTo" class="navbar__item navbar__link"> <img src="/img/annotation.svg" alt=" " width="15rem" /> Comment commenter ?</a>'
                     },
-                    //    {to: '/blog', label: 'Blog', position: 'left'},
-                    /*    {
-                          href: 'https://github.com/facebook/docusaurus',
+                    */
+                    {
+                          href: 'https://github.com/abes-esr/projet2024',
                           label: 'GitHub',
                           position: 'right',
-                        },*/
+                        },
                 ],
             },
             footer: {
@@ -140,6 +153,7 @@ const config = {
                 copyright: `Agence bibliographique de l\'enseignement supérieur`,
                 
                 links: [
+/*
                     {
 // paramétrage du panneau des commentaires de l'outil hypothes.is
 // cette méthode permet d'y ajouter toute la configuration souhaitée
@@ -152,7 +166,9 @@ const config = {
 </script>
                           `,
                     },
-                ]
+*/
+                ],
+
             },
 
             prism: {
@@ -171,10 +187,16 @@ const config = {
 
     // inclusion du panneau des commentaires de l'outil hypothes.is
     // cf lignes plus haut pour la configuration
-    scripts: [{
-        src: 'https://hypothes.is/embed.js',
-        async: true
-    }]
+    scripts: [
+        {
+            src: 'https://hypothes.is/embed.js',
+            async: true
+        },
+        {
+            src: '/force-hypotheseis-highlight.js',
+            async: true
+        },
+    ]
 
 };
 
