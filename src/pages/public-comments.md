@@ -5,8 +5,8 @@ hide_table_of_contents: false
 
 # Commentaires publics du projet de l'Abes
 
-L'appel à commentaires publics est clos depuis le  31 octobre 2023.
-Vous pouvez en revanche consulter tous les commentaires déposés sur les versions [1.1](/docs/1.1/projet2024) et [2.2](/docs/2.2/projet2024) du projet avec l'outil `hypothes.is`.
+L'appel à commentaires publics est clos depuis le  31 octobre 2023.  
+Cepêndant, vous pouvez consulter tous les commentaires déposés sur les versions [1.1](/docs/1.1/projet2024) et [2.2](/docs/2.2/projet2024) du projet avec l'outil `hypothes.is`.
 
 Il y a deux manières de procéder.
 
