@@ -17,7 +17,7 @@ L'Abes a élaboré son projet d'établissement 2024-2028 de janvier à novembre 
 <p>
 Le premier semestre était largement consacré à l’analyse des produits et services de l’établissement et au recueil des besoins utilisateurs.<br/>
 Le second semestre était consacré aux choix et à la rédaction itérative du document de projet.<br/>
-Deux versions (<a href="/docs/1.1/projet2024">1.1</a> et <a href="/docs/2.2/projet2024">2.2</a>) ont ainsi été publiées et <a href="/public-comments">ouvertes aux commentaires publics</a>.
+Deux versions (<a href="/docs/1.1/projet2024">1.1</a> et <a href="/docs/2.2/projet2024">2.2</a>) ont été publiées et <a href="/public-comments">mises à la disposition du public pour recueillir des commentaires</a>.
 </p>
 <p>
 Le Conseil d'administration de l'Abes a voté le projet dans sa version finale et 20/11/2024 et que nous vous invitons à le consulter ici :
