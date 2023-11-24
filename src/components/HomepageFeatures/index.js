@@ -20,7 +20,7 @@ Le second semestre était consacré aux choix et à la rédaction itérative du 
 Deux versions (<a href="/docs/1.1/projet2024">1.1</a> et <a href="/docs/2.2/projet2024">2.2</a>) ont été publiées et <a href="/public-comments">mises à la disposition du public pour recueillir des commentaires</a>.
 </p>
 <p>
-Le Conseil d'administration de l'Abes a voté le projet dans sa version finale et 20/11/2024 et que nous vous invitons à le consulter ici :
+Le Conseil d'administration de l'Abes a voté le projet dans sa version finale et 20/11/2024 et nous vous invitons à le consulter ici :
 </p>
 <ConsulterProjetAbesLink />
 <p>
