@@ -13,7 +13,7 @@ Il y a deux manières de procéder.
 ## 1. Liste brute des commentaires
 
 Vous pouvez consulter ce lien qui donne la liste brute de tous les commentaires déposés sur le document de projet :
-[**Tous les commentaires**](https://hypothes.is/search?q=url%3Ahttps%3A%2F%2Fprojet2024.abes.fr%2F*)
+[**Tous les commentaires publics**](https://hypothes.is/search?q=url%3Ahttps%3A%2F%2Fprojet2024.abes.fr%2F*)
 
 
 ## 2. Consultation des commentaires dans leurs contextes
