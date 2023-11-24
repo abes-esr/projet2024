@@ -11,28 +11,20 @@ const FeatureList = [
     description: (
       <>
 <p>
-L’Abes travaille depuis janvier 2023 à la conception de son projet d’établissement 2024-2028. Après un premier semestre largement consacré à l’analyse des produits et services de l’établissement et au recueil des besoins utilisateurs, le second semestre est celui des choix et de la rédaction.
-</p>
-
-
-<p>
-Le document qui vous est proposé pour commentaire a été déposé sous une <a href="/docs/1.1/projet2024">première version</a>, enrichie des discussions qui ont eu lieu à ce sujet lors du Conseil d’administration du 14 septembre. Une <strong>seconde version de ce texte, comportant d’importants amendements et accompagnée d’un calendrier prévisionnel, a été déposée le mardi 24 octobre</strong> (la <a href="/docs/1.1/projet2024">version 1</a> ainsi que les commentaires précédemment déposés ont été conservés).
+L'Abes a élaboré son projet d'établissement 2024-2028 de janvier à novembre 2023.
 </p>
 
 <p>
-L’objectif de cette consultation est d’en consolider la teneur avec vos retours en vue de la rédaction finale d’un projet précis, complet, au plus près des attentes et besoins de la communauté. Il sera présenté et soumis à validation du conseil d’administration de l’Abes le lundi 20 novembre 2023. 
+Le premier semestre était largement consacré à l’analyse des produits et services de l’établissement et au recueil des besoins utilisateurs.<br/>
+Le second semestre était consacré aux choix et à la rédaction itérative du document de projet.<br/>
+Deux versions (<a href="/docs/1.1/projet2024">1.1</a> et <a href="/docs/2.2/projet2024">2.2</a>) ont ainsi été publiées et <a href="/public-comments">ouvertes aux commentaires publics</a>.
 </p>
-
 <p>
-Vous pouvez commenter ce projet à l’aide de la plateforme d’annotation Hypothesis : <a href="/howTo">un guide d’utilisation est disponible sur ce site</a>.
+Le Conseil d'administration de l'Abes a voté le projet dans sa version finale et 20/11/2024 et que nous vous invitons à le consulter ici :
 </p>
-
+<ConsulterProjetAbesLink />
 <p>
-Les contributions sont ouvertes jusqu'au mardi 31 octobre 2023 pour prise en compte dans la rédaction finale.
-</p>
-
-<p>
-Les commentaires restent possibles au-delà de la date du 30 octobre. En cas de besoins d'échanges plus approfondis, vous avez également la possibilité de contacter l'équipe projet de l'Abes à l'adresse <code>pe2024 [at] abes.fr</code>
+<br/>En cas de besoin, vous avez toujours la possibilité de contacter l'équipe projet de l'Abes à l'adresse <code>pe2024 [at] abes.fr</code>
 </p>
   
       </>
@@ -66,7 +58,6 @@ export default function HomepageFeatures() {
             <Feature key={idx} {...props} />
           ))}
         </div>
-        <ConsulterProjetAbesLink />
       </div>
 
     </section>
