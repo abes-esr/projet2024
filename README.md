@@ -19,8 +19,8 @@ La version de travail du projet d'établissement est un docx partagé entre tous
 
 ``` bash
 cd projet2024/docs/
-cp ../Projet\ d\'établissement\ de\ l\'Abes\ 2024-2028\ -\ calendrier\ -\ v2.3.md ./projet2024-calendrier.md
-pandoc -s ../Projet\ d\'établissement\ de\ l\'Abes\ 2024-2028\ -\ v2.3.docx -t gfm -o ./projet2024.md --extract-media=.
+cp ../Projet\ d\'établissement\ de\ l\'Abes\ 2024-2028\ -\ calendrier\ -\ v2.4.md ./projet2024-calendrier.md
+pandoc -s ../Projet\ d\'établissement\ de\ l\'Abes\ 2024-2028\ -\ v2.4.docx -t gfm -o ./projet2024.md --extract-media=.
 
 # nettoyage de la tabe des matières qui n'a pas d'intérêt dans la version markdown (autogénérée)
 sed -i -n '/# 1\\. Résumé exécutif/,$p' ./projet2024.md
@@ -40,12 +40,12 @@ sed -i 's/<span class="underline">\([^<]*\)<\/span>/<u>\1<\/u>/g' ./projet2024.m
 
 # ajout du H1 de la page
 echo "---
-title: version 2.3
+title: version 2.4
 ---
 
 # Projet d’établissement 2024-2028 de l'Abes
 
-Version 2.3 du projet d'établissement 2024-2028 de l'Abes publiée au 06/11/2023.
+Version finale (2.4) du projet d'établissement 2024-2028 de l'Abes publiée le 24/11/2023.
 
 " > ./projet2024-head.md
 cat ./projet2024-head.md ./projet2024.md > ./projet2024-final.md
@@ -58,8 +58,8 @@ echo "
 [Voir cette page qui présente le calendrier prévisionnel du projet 2024-2028 de l'Abes](./projet2024-calendrier).
 " >> ./projet2024.md
 
-# copie dans la version en question (2.3 dans cet exemple)
-cp -r * ../versioned_docs/version-2.3/
+# copie dans la version en question (2.4 dans cet exemple)
+cp -r * ../versioned_docs/version-2.4/
 ```
 
 Il faut ensuite commit/push le nouveau md après avoir vérifié qu'il est propre.
