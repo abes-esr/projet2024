@@ -24,7 +24,7 @@ Le Conseil d'administration de l'Abes a voté le projet dans sa version définit
 </p>
 <ConsulterProjetAbesLink />
 <p>
-<br/>L'équipe projet reste consultable à l'adresse <code>pe2024 [at] abes.fr</code>
+<br/>Pour toute question ou remarque, vous pouvez écrire à <code>pe2024 [at] abes.fr</code>
 </p>
   
       </>
