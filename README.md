@@ -10,7 +10,7 @@ Le site est déployé sur les environnements de dev, test, et prod à l'aide de 
 https://github.com/abes-esr/projet2024-docker
 
 
-## Publier une nouvelle version du projet de l'Abes
+## Procédure pour publier une nouvelle version du projet de l'Abes
 
 
 ### Etape 1 : passer du docx au markdown
