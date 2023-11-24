@@ -1,5 +1,5 @@
 ---
-title: Commentaires publics sur le projet de l'Abes ?
+title: Commentaires publics du projet de l'Abes
 hide_table_of_contents: false
 ---
 
