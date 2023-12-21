@@ -10,6 +10,11 @@ Le site est déployé sur les environnements de dev, test, et prod à l'aide de 
 https://github.com/abes-esr/projet2024-docker
 
 
+## Architecture
+
+L'article suivant explique l'articulation des différentes technologies utilisées pour mettre en place le site https://projet2024.abes.fr :  
+https://punktokomo.abes.fr/2023/12/20/focus-sur-les-technologies-utilisees-pour-la-publication-du-projet-detablissement-2024-2028-de-labes/
+
 ## Procédure pour publier une nouvelle version du projet de l'Abes
 
 
