@@ -124,8 +124,7 @@
     "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
-    "message": "{versionLabel}",
-    "description": "The label used to identify a document version"
+    "message": "{versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "Ceci est la documentation de la prochaine version {versionLabel} de {siteTitle}.",
@@ -270,6 +269,52 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "Consulter le projet": {
+    "message": "Consulter le projet"
+  },
+  "L'Abes a élaboré son projet d'établissement 2024-2028 de janvier à novembre 2023.": {
+    "message": "L'Abes a élaboré son projet d'établissement 2024-2028 de janvier à novembre 2023."
+  },
+  ".": {
+    "message": "."
+  },
+  "Le Conseil d'administration de l'Abes a voté le projet dans sa version définitive le 20/11/2023.": {
+    "message": "Le Conseil d'administration de l'Abes a voté le projet dans sa version définitive le 20/11/2023."
+  },
+  "theme.admonition.warning": {
+    "message": "attention",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Développer la catégorie '{label}' de la barre latérale",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Réduire la catégorie '{label}' de la barre latérale",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.unlistedContent.title": {
+    "message": "Page non répertoriée",
+    "description": "The unlisted content banner title"
+  },
+  "theme.unlistedContent.message": {
+    "message": "Cette page n'est pas répertoriée. Les moteurs de recherche ne l'indexeront pas, et seuls les utilisateurs ayant un lien direct peuvent y accéder.",
+    "description": "The unlisted content banner message"
+  },
+  "Le premier semestre était consacré à l’analyse des produits et services de l’établissement et au recueil des besoins utilisateurs.": {
+    "message": "Le premier semestre était consacré à l’analyse des produits et services de l’établissement et au recueil des besoins utilisateurs."
+  },
+  "Le second semestre était consacré aux choix et à la rédaction itérative du document de projet.": {
+    "message": "Le second semestre était consacré aux choix et à la rédaction itérative du document de projet."
+  },
+  "Deux versions": {
+    "message": "Deux versions"
+  },
+  "mises à la disposition du public pour recueillir des commentaires": {
+    "message": "mises à la disposition du public pour recueillir des commentaires"
+  },
+  "Pour toute question ou remarque, vous pouvez écrire à": {
+    "message": "Pour toute question ou remarque, vous pouvez écrire à"
   }
 }
-

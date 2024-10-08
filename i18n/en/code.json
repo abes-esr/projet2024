@@ -272,5 +272,49 @@
   },
   "Consulter le projet": {
     "message": "Consulter le projet"
+  },
+  "L'Abes a élaboré son projet d'établissement 2024-2028 de janvier à novembre 2023.": {
+    "message": "Abes has developed its 2024-2028 establishment project from January to November 2023."
+  },
+  ".": {
+    "message": "."
+  },
+  "Le Conseil d'administration de l'Abes a voté le projet dans sa version définitive le 20/11/2023.": {
+    "message": "The Abes Board of Directors voted on the final version of the project on 20/11/2023."
+  },
+  "theme.admonition.warning": {
+    "message": "warning",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Expand the '{label}' category in the sidebar",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Collapse the '{label}' category in the sidebar",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.unlistedContent.title": {
+    "message": "Unlisted page",
+    "description": "The unlisted content banner title"
+  },
+  "theme.unlistedContent.message": {
+    "message": "This page is not listed. Search engines will not index it, and only users with a direct link can access it.",
+    "description": "The unlisted content banner message"
+  },
+  "Le premier semestre était consacré à l’analyse des produits et services de l’établissement et au recueil des besoins utilisateurs.": {
+    "message": "The first semester was devoted to the analysis of the institution's products and services and the collection of user needs."
+  },
+  "Le second semestre était consacré aux choix et à la rédaction itérative du document de projet.": {
+    "message": "The second semester was devoted to the choices and iterative drafting of the project document."
+  },
+  "Deux versions": {
+    "message": "Two versions"
+  },
+  "mises à la disposition du public pour recueillir des commentaires": {
+    "message": "made available to the public for feedback"
+  },
+  "Pour toute question ou remarque, vous pouvez écrire à": {
+    "message": "For any questions or comments, you can write to"
   }
 }
