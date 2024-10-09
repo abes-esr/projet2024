@@ -302,7 +302,7 @@ métadonnées, soit en proposant elles-mêmes de nouvelles API.
 
 Toutes ces API développées par l’Abes ou proposées par le futur système
 de gestion de métadonnées seront publiées et documentées sur
-<https://api.gouv.fr/>. Les services (présents et futurs), qui
+[https://api.gouv.fr/](https://api.gouv.fr/). Les services (présents et futurs), qui
 graviteront autours du futur système de gestion de métadonnées,
 s’appuieront sur ces mêmes principes.
 
@@ -319,7 +319,7 @@ fonctionnalités seront proposées en natif par le nouveau système de
 gestion de métadonnées et toutes les nouvelles applications ayant comme
 objectif d’écrire dans les données disposeront d’API CRUD qui seront, au
 même titre que les API en lecture, publiées et documentées sur
-<https://api.gouv.fr>.
+[https://api.gouv.fr/](https://api.gouv.fr/).
 
 Ces API demanderont une authentification aux machines souhaitant y
 accéder, qui permettra de sécuriser le service offert, de le piloter et
@@ -329,10 +329,10 @@ d’offrir des services adaptés à chaque catégorie d’utilisateurs.
 
   - Au moment de la mise en production du système de gestion de
     métadonnées, la documentation d’API du système de gestion de
-    métadonnées de l’Abes est disponible sur <https://api.gouv.fr>
+    métadonnées de l’Abes est disponible sur [https://api.gouv.fr/](https://api.gouv.fr/)
 
   - La prochaine application “satellite” développée par l’Abes a la
-    documentation de ses API sur <https://api.gouv.fr> ;
+    documentation de ses API sur [https://api.gouv.fr/](https://api.gouv.fr/) ;
 
   - Le système de gestion de métadonnées de l’Abes propose des API en
     écriture avec une intégration dans la fédération d’identités ESR

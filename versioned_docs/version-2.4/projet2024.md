@@ -299,7 +299,7 @@ Les applications satellites (présentes et futures) s’appuieront sur cet
 métadonnées, soit en proposant elles-mêmes de nouvelles API.
 
 Toutes les API développées par l’Abes seront publiées et documentées sur
-<https://api.gouv.fr/>. Les services (présents et futurs), qui
+[https://api.gouv.fr/](https://api.gouv.fr/). Les services (présents et futurs), qui
 graviteront autour du futur système de gestion de métadonnées,
 s’appuieront sur ces mêmes principes.
 
@@ -324,7 +324,7 @@ d’offrir des services adaptés à chaque catégorie d’utilisateurs.
 
   - Toute prochaine application satellite qui serait développée par
     l’Abes dispose d’API publiquement documentées sur
-    <https://api.gouv.fr> ;
+    [https://api.gouv.fr/](https://api.gouv.fr/) ;
 
   - Le système de gestion de métadonnées de l’Abes propose des API en
     écriture ;

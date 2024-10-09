@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer').themes.github;
+const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -31,7 +31,7 @@ const config = {
     // to replace "en" with "zh-Hans".
     i18n: {
         defaultLocale: 'fr',
-        locales: ['fr'],
+        locales: ['fr', 'en']
     },
     
     // pour avoir la possibilité de faire des diagrames de gantt dans le markdown
@@ -122,7 +122,6 @@ const config = {
                       //  label: 'Comment ajouter vos commentaires',
                         value:'<a href="/public-comments" class="navbar__item navbar__link"> <img src="/img/annotation.svg" alt=" " width="15rem" /> Commentaires publics</a>'
                     },
-
                     /*
                     {
                         type: 'html',
@@ -133,10 +132,14 @@ const config = {
                     },
                     */
                     {
+                        type: 'localeDropdown',
+                        position: 'right'
+                    },
+                    {
                           href: 'https://github.com/abes-esr/projet2024',
                           label: 'GitHub',
                           position: 'right',
-                        },
+                    },
                 ],
             },
             footer: {
