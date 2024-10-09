@@ -203,7 +203,7 @@ priority:
    A new batch or unit-based data administration service is proposed to
                                                                                                                                                experts within the networks
 
-                                                                                                                                                                                                                                                                                          **<u>*Extended criteria for success*</u> **
+                                                                                                                                                                                                                                                                                          <u>*Extended criteria for success*</u> 
 
 - The public portal for the metadata management system offers
   establishments a back office allowing for the personalisation of the
