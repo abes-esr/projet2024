@@ -7,7 +7,7 @@ import Translate from '@docusaurus/Translate';
 const FeatureList = [
 
   {
-    title: 'Pourquoi ce site web ?',
+    title: <Translate>Pourquoi ce site web ?</Translate>,
     Svg: require('@site/static/img/logo-abes-cercle-130x130.svg').default,
     description: (
       <>
@@ -22,8 +22,8 @@ L'Abes a élaboré son projet d'établissement 2024-2028 de janvier à novembre 
         Le premier semestre était consacré à l’analyse des produits et services de l’établissement et au recueil des besoins utilisateurs.</Translate>
     <br/><Translate>
         Le second semestre était consacré aux choix et à la rédaction itérative du document de projet.</Translate><br/>
-        <Translate>Deux versions</Translate> (<a href="/docs/1.1/projet2024">1.1</a> et <a href="/docs/2.2/projet2024">2.2</a>) ont été publiées
-        et <a href="/public-comments"><Translate> mises à la disposition du public pour recueillir des commentaires</Translate></a>.
+        <Translate>Deux versions</Translate> (<a href="/docs/1.1/projet2024">1.1</a> et <a href="/docs/2.2/projet2024">2.2</a>) <Translate>ont été publiées
+        et </Translate><a href="/public-comments"><Translate> mises à la disposition du public pour recueillir des commentaires</Translate></a>.
 </p>
 <p>
     <Translate>

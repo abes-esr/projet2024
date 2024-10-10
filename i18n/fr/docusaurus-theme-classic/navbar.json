@@ -10,5 +10,13 @@
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
+  },
+  "item.label.comments": {
+    "message": "Commentaires publics",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.Commentaires publics": {
+    "message": "Commentaires publics",
+    "description": "Navbar item with label Commentaires publics"
   }
 }

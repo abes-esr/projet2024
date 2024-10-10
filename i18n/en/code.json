@@ -271,7 +271,7 @@
     "description": "The title of the tag list page"
   },
   "Consulter le projet": {
-    "message": "Consulter le projet"
+    "message": "View project"
   },
   "L'Abes a élaboré son projet d'établissement 2024-2028 de janvier à novembre 2023.": {
     "message": "Abes has developed its 2024-2028 establishment project from January to November 2023."
@@ -311,10 +311,16 @@
   "Deux versions": {
     "message": "Two versions"
   },
-  "mises à la disposition du public pour recueillir des commentaires": {
+  " mises à la disposition du public pour recueillir des commentaires": {
     "message": "made available to the public for feedback"
   },
-  "Pour toute question ou remarque, vous pouvez écrire à": {
+  "Pour toute question ou remarque, vous pouvez écrire à ": {
     "message": "For any questions or comments, you can write to"
+  },
+  "Pourquoi ce site web ?": {
+    "message": "What is the purpose of this web site ?"
+  },
+  "ont été publiées et ": {
+    "message": "were published and "
   }
 }
