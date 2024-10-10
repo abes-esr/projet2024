@@ -1,0 +1,10 @@
+{
+  "copyright": {
+    "message": "Agence bibliographique de l'enseignement supérieur",
+    "description": "The footer copyright"
+  },
+  "logo.alt": {
+    "message": "Abes Logo",
+    "description": "The alt text of footer logo"
+  }
+}

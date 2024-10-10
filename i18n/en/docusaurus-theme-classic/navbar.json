@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "Abes Establishment Project",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Abes Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.Commentaires publics": {
+    "message": "Public comments",
+    "description": "Navbar button to comments"
+  }
+}
