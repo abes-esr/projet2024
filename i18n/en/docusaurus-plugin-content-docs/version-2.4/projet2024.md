@@ -4,10 +4,10 @@ title: version 2.4
 
 # ABES Establishment Project 2024-2028
 
-Final translated version (2.4) of the Abes Establishment Project 2024-2028 published on 07/10/2024.
+Final translated version (2.4) of the Abes Establishment Project 2024-2028 published on 24/11/2023.
 
 
-Executive summary
+## Executive summary
 
 With this project, Abes wishes to **strengthen its role in the provision
 of high-quality metadata** to higher education and research
@@ -51,7 +51,7 @@ Abes’ management system:
 Finally, some of our tools (Calames, STAR, STEP and theses.fr) have
 their own master database and a higher degree of independence from CBS.
 
-![Une image contenant texte, ligne, Police, Tracé Description générée automatiquement](./media/image2.png)
+![Simplified overview of Abes' business information system](./media/image2.png)
 
 *Figure 1 —Simplified overview of the Abes’ IT system (2023)*
 
@@ -144,8 +144,8 @@ to take account of several factors:
 <u>*Criteria for success*</u> 
 
 - An initial tranche of the management system, yet to be defined, could
-                               be in production in 2027 to allow for the deployment of new services
-                               in the closing period of the project
+                        be in production in 2027 to allow for the deployment of new services
+                        in the closing period of the project
 
 - The metadata for printed and electronic resources (ebooks, magazines,
   packages) are managed natively by the new metadata management system
@@ -198,12 +198,10 @@ priority:
 
 <u>*Criteria for success*</u> - The public portal for the metadata management system is an RGAA-compliant web interface possessing security approval  
 
-- The cataloguing interface of the metadata management system is a web
-                                                                                                                                                      interface proposing forms to create or modify data on a per-unit basis
-   A new batch or unit-based data administration service is proposed to
-                                                                                                                                                      experts within the networks
+- The cataloguing interface of the metadata management system is a web interface proposing forms to create or modify data on a per-unit basis
+   A new batch or unit-based data administration service is proposed to experts within the networks
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                              **<u>*Extended criteria for success*</u> **
+<u>*Extended criteria for success*</u> 
 
 - The public portal for the metadata management system offers
   establishments a back office allowing for the personalisation of the
@@ -244,16 +242,14 @@ a key priority.
 <u>*Criteria for success*</u> 
 
 - When choosing an Open Source software solution for the metadata
-                               management system, Abes actively participates in the Open Source
-                               community* *
+                        management system, Abes actively participates in the Open Source
+                        community* *
 
 - When choosing an Open Source software solution for the metadata
   management system, Abes does not fork the software: the features and
   functions developed are included in the software’s roadmap  
 
-- Any plug-in added to the metadata management system, or any satellite
-                                                              application developed by Abes has code for which the licence is Open
-                                                              Source.
+- Any plug-in added to the metadata management system, or any satellite application developed by Abes has code for which the licence is Open Source.
 
 ### 1.4 An API strategy
 
@@ -299,7 +295,7 @@ and offer services adapted to each user category.
 <u>*Criteria for success*</u> 
 
 - At the time it goes into production, the new Abes metadata management
-                               system has publicly documented APIs
+                        system has publicly documented APIs
 
 - All new satellite applications developed by Abes has publicly
   documented APIs available at [https://api.gouv.fr/](https://api.gouv.fr/)
@@ -309,14 +305,11 @@ and offer services adapted to each user category.
 - Before the end of the project, a service for the correction, reading,
   modification and deletion of entries is established with the APIs 
 
-- During this project, a study note lays down the conditions necessary
-                                                                     to the implementation of an API for the creation, reading,
-                                                                     modification and deletion of bibliographical data
+- During this project, a study note lays down the conditions necessary to the implementation of an API for the creation, reading, modification and deletion of bibliographical data
 
 <u>*Extended criteria for success*</u> 
 
-- APIs for the creation, reading, modification and deletion of
-                                        bibliographical data are proposed to the establishments
+- APIs for the creation, reading, modification and deletion of bibliographical data are proposed to the establishments
 
 ### 1.5 The upgrading of the metadata management system as a central aspect of the project
 
@@ -389,7 +382,7 @@ the backbone of Abes’s 2024-2028 project.**
 <u>*Criteria for success*</u> 
 
 - At least two existing satellite applications are replaced by the
-                               metadata management system
+                        metadata management system
 
 - At least one existing satellite application is connected to the
   metadata management system via its APIs
@@ -541,8 +534,7 @@ the facility project will seek to:
 - Tracking of the content of commercial packages and their
   identification takes place automatically 
 
-- Bibliographical imports account for more than 50% of the creative work
-                                            used within the system by the establishments by the end of the period
+- Bibliographical imports account for more than 50% of the creative work used within the system by the establishments by the end of the period
 
 ### 2.2 Defining a data policy
 
@@ -585,14 +577,11 @@ particularly concerns the concrete methods for circulating the data
 
 - Abes has a public data quality policy accompanied by indicators 
 
-- Abes has implemented a categorisation system for its data,
-                                                                                                particularly by means of an overall score allocated to the metadata
-                                                                                                concerned 
+- Abes has implemented a categorisation system for its data, particularly by means of an overall score allocated to the metadata concerned 
 
 - Abes has a display policy for its data 
 
-- Abes has updated its policy on the circulation and reuse of its
-                                                                                                                                                   metadata.
+- Abes has updated its policy on the circulation and reuse of its metadata.
 
 ### 2.3 Agents’ repositories contributing to the simplification and clarity of the HER sector
 
@@ -711,8 +700,8 @@ facility project are therefore:
 <u>*Criteria for success*</u> 
 
 - The number of ORCID identifiers of French researchers increases on
-                               average by 25% each year and Abes aligns them systematically with
-                               IdRef identifiers.
+                        average by 25% each year and Abes aligns them systematically with
+                        IdRef identifiers.
 
 - An indicator making it possible to measure the annual change in
   ORCID adoption is set up based on the public ORCID dump
@@ -795,12 +784,12 @@ possible to make better use of each party’s skills. 
 <u>*Criteria for success*</u> 
 
 - A new management cost model is approved by the Executive Board and
-                                                                                  implemented 
+                                                                           implemented 
 
 - The sum received corresponding to these new management cost model
-                                                                                               allows for the recruitment of 3 staff for the current perimeter of 15
-                                                                                               contracts and the model allows for the changes in human resources
-                                                                                               necessary to a possible increase in activity
+                                                                                        allows for the recruitment of 3 staff for the current perimeter of 15
+                                                                                        contracts and the model allows for the changes in human resources
+                                                                                        necessary to a possible increase in activity
 
 - Abes and Couperin Executive Boards approve a basis for analysis making
   it possible to assess the appropriateness of Abes supporting a
@@ -928,12 +917,12 @@ around the following aspects:
 <u>*Criteria for success*</u> 
 
 - Abes has a network devoted to technical matters and organises a
-                               community comprised at the very least of clubs for users and
-                               administrators of software solutions. A mid-stage report and end of
-                               project report provide an assessment of this programme’s activities 
+                        community comprised at the very least of clubs for users and
+                        administrators of software solutions. A mid-stage report and end of
+                        project report provide an assessment of this programme’s activities 
 
 - Abes supplies detailed documentation concerning its data
-                                                                                                    administration and exploitation resources
+                                                                                             administration and exploitation resources
 
 
 ### 4.3 A redefined Sudoc PS network
@@ -1013,18 +1002,11 @@ includes:
 
 <u>*Criteria for success*</u> 
 
-- A document defines the Abes’ overall strategy regarding the
-                               organisation of communities and relationships with users 
+- A document defines the Abes’ overall strategy regarding the organisation of communities and relationships with users 
 
-- Work to redefine the range of training is carried out in partnership
-                                                                                         with training bodies in this sector, with the aim of providing greater
-                                                                                         autonomy for users 
+- Work to redefine the range of training is carried out in partnership with training bodies in this sector, with the aim of providing greater autonomy for users 
 
-- An incident ticket management system is set up, which should be easy
-                                                                                                             to use and more satisfying for users than the current system. The cost
-                                                                                                             of using the service for Abes is reduced
-
--
+- An incident ticket management system is set up, which should be easy to use and more satisfying for users than the current system. The cost of using the service for Abes is reduced
 
 ## 5. Reinforcing the Research and Development policy (R&D)
 
@@ -1087,7 +1069,7 @@ and actions:
 <u>*Criteria for success*</u> 
 
 - Two thirds of the studies and prototypes set up result in an
-                               application tested by our partners outside Abes 
+                        application tested by our partners outside Abes 
 
 - Half of the applications tested enter production
 
