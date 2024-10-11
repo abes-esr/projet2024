@@ -173,7 +173,7 @@ Ensuite, il faut comparer les fichiers json des dossiers ```/i18n/fr/``` et ```/
 
 #### b. Composants react 
 
-Pour les fichiers js comme les composants du dossier ```/src/components/```, les textes à traduire doivent être entourées des balises ```<Translate>texte à traduire</Translate>```
+Pour les fichiers js comme les composants du dossier ```/src/components/```, les textes à traduire doivent être entourés des balises ```<Translate>texte à traduire</Translate>```
 
 La commande ``` npm run write-translations ``` va ensuite ajouter les lignes correspondantes dans le fichier ```/i18n/fr/code.json``` qu'il faudra copier dans le fichier ```/i18n/en/code.json``` et traduire 
 la valeur correspondant à la clé 'message'.
