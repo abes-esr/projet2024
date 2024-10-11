@@ -36,12 +36,22 @@ const config = {
     // pour avoir la possibilité de faire des diagrames de gantt dans le markdown
     // exemple: https://docusaurus.io/fr/tests/pages/diagrams#gantt-chart
     // cf https://docusaurus.io/fr/docs/next/markdown-features/diagrams
-    markdown: {
-        mermaid: true,
-    },
-    themes: ['@docusaurus/theme-mermaid'],
+    // markdown: {
+    //     mermaid: false,
+    // },
+    // themes: ['@docusaurus/theme-mermaid'],
 
     plugins: [
+        [
+            require.resolve("@easyops-cn/docusaurus-search-local"),
+            ({
+                // ... Your options.
+                // `hashed` is recommended as long-term-cache of index file is possible.
+                hashed: true,
+                indexBlog: false,
+            })
+        ]
+        ,
         'docusaurus-plugin-matomo',
     ],
     presets: [
@@ -83,10 +93,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             // options pour le plugin gantt
-            mermaid: {
-                options: {
-                },
-            },
+            // mermaid: {
+            //     options: {
+            //     },
+            // },
             // Replace with your project's social card
             //  image: 'img/docusaurus-social-card.jpg',
             tableOfContents: {
@@ -134,7 +144,10 @@ const config = {
                       //  label: 'Comment ajouter vos commentaires',
                         value:'<a href="/howTo" class="navbar__item navbar__link"> <img src="/img/annotation.svg" alt=" " width="15rem" /> Comment commenter ?</a>'
                     },
-                    */
+                    */{
+                        "type": "search",
+                        "position": "right"
+                    },
                     {
                         type: 'localeDropdown',
                         position: 'right'
