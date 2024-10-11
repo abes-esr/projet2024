@@ -330,38 +330,39 @@
     "message": "Projet d'établissement 2024-2028 de l'Abes"
   },
   "theme.SearchBar.noResultsText": {
-    "message": "No results"
+    "message": "Aucun résultat"
   },
   "theme.SearchBar.seeAllOutsideContext": {
-    "message": "See all results outside \"{context}\""
+    "message": "Voir tous les résultats en dehors de \"{context}\""
   },
   "theme.SearchBar.searchInContext": {
-    "message": "See all results within \"{context}\""
+    "message": "Voir tous les résultats dans \"{context}\""
   },
   "theme.SearchBar.seeAll": {
-    "message": "See all results"
+    "message": "Voir tous les résultats"
   },
   "theme.SearchBar.label": {
-    "message": "Search",
-    "description": "The ARIA label and placeholder for search button"
+    "message": "Rechercher",
+    "description": "Le label ARIA et le placeholder pour le bouton de recherche"
   },
   "theme.SearchPage.existingResultsTitle": {
-    "message": "Search results for \"{query}\"",
-    "description": "The search page title for non-empty query"
+    "message": "Résultats de recherche pour \"{query}\"",
+    "description": "Le titre de la page de recherche pour une requête non vide"
   },
   "theme.SearchPage.emptyResultsTitle": {
-    "message": "Search the documentation",
-    "description": "The search page title for empty query"
+    "message": "Rechercher dans la documentation",
+    "description": "Le titre de la page de recherche pour une requête vide"
   },
   "theme.SearchPage.searchContext.everywhere": {
-    "message": "Everywhere"
+    "message": "Partout"
   },
   "theme.SearchPage.documentsFound.plurals": {
-    "message": "1 document found|{count} documents found",
-    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "message": "1 document trouvé|{count} documents trouvés",
+    "description": "Label pluriel pour \"{count} documents trouvés\"."
   },
   "theme.SearchPage.noResultsText": {
-    "message": "No documents were found",
-    "description": "The paragraph for empty search result"
+    "message": "Aucun document trouvé",
+    "description": "Le paragraphe pour un résultat de recherche vide"
   }
 }
+
