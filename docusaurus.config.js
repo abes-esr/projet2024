@@ -36,10 +36,10 @@ const config = {
     // pour avoir la possibilité de faire des diagrames de gantt dans le markdown
     // exemple: https://docusaurus.io/fr/tests/pages/diagrams#gantt-chart
     // cf https://docusaurus.io/fr/docs/next/markdown-features/diagrams
-    // markdown: {
-    //     mermaid: false,
-    // },
-    // themes: ['@docusaurus/theme-mermaid'],
+    markdown: {
+        mermaid: true,
+    },
+    themes: ['@docusaurus/theme-mermaid'],
 
     plugins: [
         [
@@ -93,10 +93,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             // options pour le plugin gantt
-            // mermaid: {
-            //     options: {
-            //     },
-            // },
+            mermaid: {
+                options: {
+                },
+            },
             // Replace with your project's social card
             //  image: 'img/docusaurus-social-card.jpg',
             tableOfContents: {
