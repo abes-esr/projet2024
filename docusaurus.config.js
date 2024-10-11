@@ -42,16 +42,14 @@ const config = {
     themes: ['@docusaurus/theme-mermaid'],
 
     plugins: [
-        [
-            require.resolve("@easyops-cn/docusaurus-search-local"),
+        require.resolve("@easyops-cn/docusaurus-search-local"),
             ({
                 // ... Your options.
                 // `hashed` is recommended as long-term-cache of index file is possible.
                 hashed: true,
             })
-        ],
+        ,
         'docusaurus-plugin-matomo',
-
     ],
     presets: [
         [
