@@ -328,5 +328,41 @@
   },
   "Projet d'établissement 2024-2028 de l'Abes": {
     "message": "Projet d'établissement 2024-2028 de l'Abes"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "Aucun résultat"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "Voir tous les résultats en dehors de \"{context}\""
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "Voir tous les résultats dans \"{context}\""
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "Voir tous les résultats"
+  },
+  "theme.SearchBar.label": {
+    "message": "Rechercher",
+    "description": "Le label ARIA et le placeholder pour le bouton de recherche"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Résultats de recherche pour \"{query}\"",
+    "description": "Le titre de la page de recherche pour une requête non vide"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Rechercher dans la documentation",
+    "description": "Le titre de la page de recherche pour une requête vide"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "Partout"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "1 document trouvé|{count} documents trouvés",
+    "description": "Label pluriel pour \"{count} documents trouvés\"."
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "Aucun document trouvé",
+    "description": "Le paragraphe pour un résultat de recherche vide"
   }
 }
+

@@ -119,3 +119,63 @@ Exemple sur un cas réel :
 - alors pour passer en production, on s'aide de [create-release.yml](https://github.com/abes-esr/projet2024/actions/workflows/create-release.yml), et on choisi une numérotation `1.1.0` pour la release
 - ensuite dans la foulée, on si on a oublié un logo ou une typo dans le texte, on fait la modif en dev/test, puis on peut regénérer une release à l'aide de [create-release.yml](https://github.com/abes-esr/projet2024/actions/workflows/create-release.yml), avec le numéro de release `1.1.1`
 - et ainsi de suite `1.1.2`, `1.1.3` etc ...
+
+
+## Procédure de mise à jour des versions traduites après modification de texte
+
+La gestion de la traduction de texte dans docusaurus est différente selon si le texte est modifié dans un composant react, dans un doc, une page ou la configuration de docusaurus.
+Pour chacun de ces cas, veuillez vous référer aux points suivants.
+
+Après toute modification, il faut lancer la commande ```npm run build -- --locale en```
+
+### 1. Modification des docs (projet2024.md ou projet2024-calendrier.md)
+
+Pour chaque version des documents principaux présents dans le dossier ```/versioned_docs/version-x.x/```, la version traduite en anglais doit être placée dans un dossier équivalent ```/i18n/en/docusaurus-plugin-content-docs/version-x.x/``` 
+
+Pour chaque version il faut créer un fichier ```version-x.x.json``` à la racine du dossier ```/i18n/en/docusaurus-plugin-content-docs/```
+Avec le contenu suivant qui traduit l'étiquette de la version x.x :
+```
+{
+  "version.label": {
+    "message": "2.4 final version",
+    "description": "The label for version 2.2"
+  }
+}
+```
+
+### 2. Modification des autres pages
+
+Les pages décrites dans le dossier ```/src/pages/``` doivent être intégralement traduites et placées dans le dossier ```/i18n/en/docusaurus-plugin-content-pages/``` avec le même nom.
+
+### 3. Modification des composants
+
+#### a. Elements de configuration, navbar et footer
+
+Si des modifications y sont apportées, il faut d'abord lancer la commande ``` npm run write-translations ```
+
+```bash
+
+i18n/
+├── en
+│   ├── code.json
+│   └── docusaurus-theme-classic
+│       ├── footer.json
+│       └── navbar.json
+└── fr
+    ├── code.json
+    └── docusaurus-theme-classic
+        ├── footer.json
+        └── navbar.json
+        
+```
+
+Ensuite, il faut comparer les fichiers json des dossiers ```/i18n/fr/``` et ```/i18n/en/``` et mettre à jour ceux du dossier ```en/``` 
+
+#### b. Composants react 
+
+Pour les fichiers js comme les composants du dossier ```/src/components/```, les textes à traduire doivent être entourés des balises ```<Translate>texte à traduire</Translate>```
+
+La commande ``` npm run write-translations ``` va ensuite ajouter les lignes correspondantes dans le fichier ```/i18n/fr/code.json``` qu'il faudra copier dans le fichier ```/i18n/en/code.json``` et traduire 
+la valeur correspondant à la clé 'message'.
+
+Pour plus de détails, se référer au <u>[tutoriel docusaurus sur l'i18n](https://docusaurus.io/docs/i18n/tutorial)</u>.

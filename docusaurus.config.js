@@ -42,6 +42,16 @@ const config = {
     themes: ['@docusaurus/theme-mermaid'],
 
     plugins: [
+        [
+            require.resolve("@easyops-cn/docusaurus-search-local"),
+            ({
+                // ... Your options.
+                // `hashed` is recommended as long-term-cache of index file is possible.
+                hashed: true,
+                indexBlog: false,
+            })
+        ]
+        ,
         'docusaurus-plugin-matomo',
     ],
     presets: [
@@ -134,7 +144,10 @@ const config = {
                       //  label: 'Comment ajouter vos commentaires',
                         value:'<a href="/howTo" class="navbar__item navbar__link"> <img src="/img/annotation.svg" alt=" " width="15rem" /> Comment commenter ?</a>'
                     },
-                    */
+                    */{
+                        "type": "search",
+                        "position": "right"
+                    },
                     {
                         type: 'localeDropdown',
                         position: 'right'
