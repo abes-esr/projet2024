@@ -2,9 +2,9 @@
 title: version 2.4
 ---
 
-# ABES Establishment Project 2024-2028
+# ABES Strategic Project 2024-2028
 
-Final translated version (2.4) of the Abes Establishment Project 2024-2028 published on 24/11/2023.
+Final translated version (2.4) of the Abes Strategic Project 2024-2028 published on 24/11/2023.
 
 
 ## Executive summary
