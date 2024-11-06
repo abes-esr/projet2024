@@ -7,7 +7,7 @@ title: version 2.4
 Final translated version (2.4) of the Abes Strategic Project 2024-2028 published on 24/11/2023.
 
 
-## Executive summary
+## 1. Executive summary
 
 With this project, Abes wishes to **strengthen its role in the provision
 of high-quality metadata** to higher education and research
@@ -33,7 +33,7 @@ period via short-term and medium-term objectives:
 
 - Adapting Abes to these new aspects
 
-## 1. The Abes’ metadata management system
+## 2. The Abes’ metadata management system
 
 Historically, there are two distinct periods in the organisation of
 Abes’ management system:
@@ -63,7 +63,7 @@ to more effectively keep pace with the requirements of the
 establishments and their changes.
 
 
-### 1.1 The framework and objectives of the move to a new IT system
+### 2.1 The framework and objectives of the move to a new IT system
 
 A priority of this project is therefore **the renewal of the Abes’
 business IT system**. On this point, efforts will be guided by the
@@ -157,7 +157,7 @@ to take account of several factors:
 - The new metadata management system incorporates metadata at an article
   and chapter level for electronic resources
 
-### 1.2 A web interface policy
+### 2.2 A web interface policy
 
 Some of the interfaces proposed by Abes will be updated as part of the
 change of metadata management system. **This change of professional and
@@ -210,7 +210,7 @@ priority:
 - A demonstrator proposing a consultation interface making the most of
                                              the added value of entity-relationship data is open to the public
 
-### 1.3 An Open Source strategy
+### 2.3 An Open Source strategy
 
 > Since the previous facility project, Abes has focused its development
 > policy on Open Source solutions. Thus, all source code for the new
@@ -251,7 +251,7 @@ a key priority.
 
 - Any plug-in added to the metadata management system, or any satellite application developed by Abes has code for which the licence is Open Source.
 
-### 1.4 An API strategy
+### 2.4 An API strategy
 
 The “API first“ strategy adopted by Abes consists of primarily offering
 machine-oriented services to meet the following needs:
@@ -311,7 +311,7 @@ and offer services adapted to each user category.
 
 - APIs for the creation, reading, modification and deletion of bibliographical data are proposed to the establishments
 
-### 1.5 The upgrading of the metadata management system as a central aspect of the project
+### 2.5 The upgrading of the metadata management system as a central aspect of the project
 
 Currently, numerous services based on data from Sudoc are proposed to
 the Abes’ networks. These services operate either via applications
@@ -392,7 +392,7 @@ the backbone of Abes’s 2024-2028 project.**
 
 -
 
-## 2. A “metadata base” for the HER
+## 3. A “metadata base” for the HER
 
 The main mission of Abes is to provide a collective catalogue of
 documentation proposed by higher education research establishments:
@@ -412,7 +412,7 @@ improved both for physical and digital resources, by automating
 information flows between the systems of the establishments and of our
 partners and the Abes’ system.
 
-### 2.1 Easier identification: data volumes, flows and centralisation
+### 3.1 Easier identification: data volumes, flows and centralisation
 
 Bibliographical identification is an important activity in libraries,
 even if their metadata is increasingly being circulated outside their
@@ -536,7 +536,7 @@ the facility project will seek to:
 
 - Bibliographical imports account for more than 50% of the creative work used within the system by the establishments by the end of the period
 
-### 2.2 Defining a data policy
+### 3.2 Defining a data policy
 
 In all discussions with Abes’ networks, the question of the quality of
 the data circulated by Abes often crops up. It is particularly difficult
@@ -583,7 +583,7 @@ particularly concerns the concrete methods for circulating the data
 
 - Abes has updated its policy on the circulation and reuse of its metadata.
 
-### 2.3 Agents’ repositories contributing to the simplification and clarity of the HER sector
+### 3.3 Agents’ repositories contributing to the simplification and clarity of the HER sector
 
 Abes and the documentary networks have a long history in creating
 authorities’ records, including the authors and authorities associated
@@ -601,7 +601,7 @@ but also the creation of new repositories, particularly those of
 different structures, whose requirements are amply demonstrated within
 the HER sector.
 
-#### 2.3.1 Peoples
+#### 3.3.1 Peoples
 
 Work has been carried out for a long while with IdRef with this in mind,
 based on the solid foundations of sharing, quality and the number and
@@ -631,7 +631,7 @@ establishments. This work must also be extended to find the best
 possible compromise between autonomy for researchers, the role of the
 institutions and the ORCID’s.
 
-#### 2.3.2 Structures
+#### 3.3.2 Structures
 
 Furthermore, to ensure national and international clarity and visibility
 regarding the research sector in France, the multidimensional effort
@@ -658,7 +658,7 @@ supports the documentary establishments ‘policy, the work of which is
 now closely associated with the management of the institution and
 support for teachers and researchers.
 
-#### 2.3.3 Agents entities
+#### 3.3.3 Agents entities
 
 The IFLA-LRM conceptual model is based on a series of repositories
 (Agent, but also Work, Expression, Location, Concept, Time, etc.) which
@@ -727,7 +727,7 @@ facility project are therefore:
 - Abes contributes to organising a community of users and producers
   based on a repository for structures within the HER sector
 
-## 3. Acquisitions of electronic documents
+## 4. Acquisitions of electronic documents
 
 It is vital that this activity conducted in collaboration with Couperin
 though without being a mission enshrined in the Abes’ articles of
@@ -736,7 +736,7 @@ efforts to secure the activity will be carried out in collaboration
 between Abes, Couperin, and Ministry of Higher Education and Research
 (*Ministère de l’Enseignement Supérieur et de la Recherche* – MESR). 
 
-### 3.1 Ensuring the sustainability of the mission 
+### 4.1 Ensuring the sustainability of the mission 
 
 It is vital to secure the **economic model** for this activity for Abes,
 particularly by reviewing the management cost model. Monitoring the
@@ -752,7 +752,7 @@ whole ecosystem.
 At the same time, Abes must work with the supervisory authority **to get
 this mission officially recognised in its articles of association**.
 
-### 3.2 Setting the criteria for “national contracts” 
+### 4.2 Setting the criteria for “national contracts” 
 
 Abes is today analysing requests to support contracts on a case-by-case
 basis. A support policy based on explicit criteria is today necessary to
@@ -768,7 +768,7 @@ scientific publishing. The task is to draw up an objective common basis
 for analysis, making it possible to decide whether or not to support a
 contract and to **rationalise the scope of the Abes’ participation**.
 
-### 3.3 Defining the Abes’ functional intervention perimeter 
+### 4.3 Defining the Abes’ functional intervention perimeter 
 
 The increasing complexity of the contracts noted above has gradually
 blurred the dividing line between negotiation and contracting over the
@@ -802,7 +802,7 @@ possible to make better use of each party’s skills. 
   for a contract and explaining the relationship between Couperin’s work
   and that of Abes is approved by both organisations’ Executive Boards
 
-## 4. Networks and partners
+## 5. Networks and partners
 
 For 30 years, Abes has organised documentary networks and has gradually
 introduced several solutions to support establishments for all aspects
@@ -837,7 +837,7 @@ regarding its networks.
 Taking a fresh look at all of these aspects is therefore a necessity but
 also an opportunity.
 
-### 4.1 Renewing opportunities for strategic dialogue
+### 5.1 Renewing opportunities for strategic dialogue
 
 In its report of May 2022, the HCERES recommended turning the Abes
 Scientific Committee into a **Strategic Steering Committee (SSC)**,
@@ -866,7 +866,7 @@ reassessed to guarantee their effectiveness over the long-term.
   concerning the strategic dialogue measures introduced
 
 
-### 4.2 Developing a programme of technical relationships
+### 5.2 Developing a programme of technical relationships
 
 The renewal of the Abes’ metadata management system and the importance
 accorded to the issues of technical data flows and use of repositories
@@ -925,7 +925,7 @@ around the following aspects:
                                                                                              administration and exploitation resources
 
 
-### 4.3 A redefined Sudoc PS network
+### 5.3 A redefined Sudoc PS network
 
 The enduring specific characteristics of the resources and the wealth of
 partners involved, concerned not only by libraries in the HER sector but
@@ -960,7 +960,7 @@ work, and to redefine its organisation and management.
 - The new operational framework for the Sudoc PS established during this
                                                                                              project defines the criteria for success for this work
 
-### 4.4 Reinvigorated relationships with the networks
+### 5.4 Reinvigorated relationships with the networks
 
 Regardless of the communities served, whether these are entirely new,
 redefined or inherited from the historical perimeter, **Abes must give
@@ -1008,7 +1008,7 @@ includes:
 
 - An incident ticket management system is set up, which should be easy to use and more satisfying for users than the current system. The cost of using the service for Abes is reduced
 
-## 5. Reinforcing the Research and Development policy (R&D)
+## 6. Reinforcing the Research and Development policy (R&D)
 
 For several years, the Abes laboratory has been considering and
 conducting work in the field of artificial intelligence (AI). Although
@@ -1082,7 +1082,7 @@ and actions:
                                                                                                                resources after the introduction of the decision-making and automation
                                                                                                                functions
 
-##  6. Organisation, Strategic Human Resource planning, missions and evaluation
+##  7. Organisation, Strategic Human Resource planning, missions and evaluation
 
 Once the facility project has been approved and its objectives set, Abes
 must organise to implement the chosen policy. This forms part of the
@@ -1094,7 +1094,7 @@ half of 2024 **introduce a new organisational structure** for Abes,
 adapted to the new needs and objectives identified by the facility
 project. We must also work on the introduction of **a Strategic Human
 Resource planning**, based on an analysis of the current skills of the
-teams and the requirements identified in the establishment project. A
+teams and the requirements identified in the strategic project. A
 training plan, reflecting the Abes’s need for skills as expressed in the
 2024-2028 project will also be necessary.
 
@@ -1140,103 +1140,9 @@ of missions extending beyond the project period.
 
 - Abes has improved the establishment’s overall carbon footprint
 
-## 7. Provisional calendar
+## 8. Provisional calendar
 
-This provisional calendar for the [Abes’s 2024-2028
-project](https://projet2024.abes.fr/docs/2.4/projet2024) was drawn up
-based on our current state of knowledge. It may change over the period
-depending on progress but makes it possible to state our initial intent.
-
-> Reference :
-> [https://projet2024.abes.fr/docs/2.4/projet2024-calendrier](https://projet2024.abes.fr/docs/2.4/projet2024-calendrier)
-
-### 7.1 The Abes’ metadata management system
-
-The timetable for the renewal of the Abes’ Metadata Management System
-(MMS) is presented in two parts:
-
-- The first part on “Reinformatization - Service Provider” refers to the
-  work to be carried out between the Abes and the service provider(s)
-  for its reinformatization.
-
-- The second part on “Reinformatization – Abes refers to the work of the
-  Abes teams on the current system and the necessary work to migrate
-  over to the new system.
-
-The details of the dates and phases are provided for information
-purposes only at this stage but demonstrates our intention to proceed
-via several phases. The details of the breakdown between Abes and the
-service provider(s) have not yet been finalised.
-
-Stages 1, 2 and 3 of the contracts specify that we will request that the
-service provider(s) provide **three successive deliveries of the MMS**.
-The content of these deliveries will be defined during the expression of
-needs and benchmarking stage. Each delivery will have a set perimeter
-which may contain functions and/or data to be managed by the MMS.
-
-Phases 1, 2 and 3 are not described in this calendar. They reflect the
-high degree dependency explained in part 2 of the project.
-
-- Phase 1 corresponds to preparing everything necessary with the service
-  provider with the aim of opening the MMS for public testing. This
-  phase includes for example the installation, configuration,
-  preparation and migration phases for data in the MMS, to be organised
-  with or without the support of the service provider(s).
-
-<!-- -->
-
-- Phase 2 corresponds to the work which cannot be pushed back to phase
-  3, aimed either at activating functions and features in the MMS to
-  replace certain existing satellite applications, or to connect
-  satellite applications as quickly as possible which cannot be replaced
-  or whose functions include the ability to write to the MMS. Indeed,
-  satellite applications with the ability to write must be replaced or
-  connected as a priority as once the MMS is in production, the data
-  will be managed therein. It should be noted that this phase 2 is short
-  and if we don’t have enough time, temporary closures of the
-  application will be necessary to be able to keep to our MMS production
-  timetable.
-
-- Phase 3 is the logical next step following on from phase 2 and
-  corresponds to the work involved in opening the new services provided
-  natively in the new MMS to the networks and the work involved in
-  connecting the last satellite applications to the MMS. This work may
-  require redesigns or the elimination of the accumulated technical
-  debt.
-
-### 7.2 A “metadata base” for the HER sector
-
-The brainstorming work, for example concerning the structures
-repository, may begin before the reinformatization gets underway. All
-operations related to the implementation of new features are postponed
-until after reinformatization.
-
-### 7.3 Acquisitions of electronic documents
-
-Changes in the Abes’ “Acquisition of electronic documents” mission is
-not dependent on reinformatization project. This work can therefore get
-underway during the first years of the project.
+[Please refer to this page for the projected timeline of the Abes 2024-2028 project](./projet2024-calendrier).
 
 
-### 7.4 Networks and partners
 
-The brainstorming and dialogue needed to reinvigorate the networks are
-not dependent on reinformatization. Thus, several actions can begin from
-the very beginning of the project, particularly concerning the renewal
-of the Sudoc-PS network.
-
-### 7.5 Reinforcing the Research & Development policy
-
-The R&D work is dependent on gaining partnerships. Otherwise, something
-could be included as a principal in the calendar, it were necessary to
-launch other actions via various means such as a call for projects, a
-service or a partnership
-
-### 7.6 Organisation, Strategic Human Resource planning, missions and evaluation
-
-The reorganisation of Abes is an integral part of the project as it will
-significantly tie up the teams. This restructuring of the teams is
-logically planned for the start of the project as it is a prerequisite
-to be able to then conduct the project under the best possible
-conditions. The redrafting of the Abes decree is also a key element, and
-thought could be given to this early in the project.
