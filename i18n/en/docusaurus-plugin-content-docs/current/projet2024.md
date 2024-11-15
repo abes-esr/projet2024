@@ -1094,7 +1094,7 @@ half of 2024 **introduce a new organisational structure** for Abes,
 adapted to the new needs and objectives identified by the facility
 project. We must also work on the introduction of **a Strategic Human
 Resource planning**, based on an analysis of the current skills of the
-teams and the requirements identified in the establishment project. A
+teams and the requirements identified in the strategic project. A
 training plan, reflecting the Abes’s need for skills as expressed in the
 2024-2028 project will also be necessary.
 
